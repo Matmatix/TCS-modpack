@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ModListv1.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="tcs" abstract="false" name="TCS" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="tcs" abstract="false" name="TCS" newsUrl="http://mwkinz.com/modpack/TCS.xml" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2806">forge</Import>
 		<Module name="Biome Bundle" id="biomebundle" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/mods/Biome_Bundle-1.12.2-v6.1.jar</URL>
@@ -688,7 +689,7 @@
 				<credits></credits>
 				<description>Used to tweak various characteristics of biomes.</description>
 				<version>3.2</version>
-				<url>http://minecraft.curseforge.com/mc-mods/228895-biometweaker</url>
+				<url>https://minecraft.curseforge.com/projects/biometweaker</url>
 				<authors>superckl</authors>
 			</Meta>
 			<ConfigFile>
@@ -1863,7 +1864,8 @@
 			<MD5>6f4bcf42544bf1b0795078ab8c4219cd</MD5>
 			<Meta>
 				<credits>Team OTG</credits>
-				<description>                          Team OTG:
+				<description>
+					 Team OTG:
                      PeeGee85 (code)
                MC_Pitman &amp; LordSmellyPants
                 (graphics, web, community)
@@ -1872,7 +1874,7 @@
            by Khorn, RutgerKok and Timethor.
 
                   - Generate anything! -
-				</description>
+			  </description>
 				<version>1.12.2 v6</version>
 				<url>https://www.openterraingenerator.com/</url>
 				<authors>PeeGee85, Khorn/Wickth, Olof Cayorion Larsson, RutgerKok, TimeThor</authors>
