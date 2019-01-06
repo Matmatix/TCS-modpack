@@ -678,7 +678,7 @@
 				<MD5>ad2000164dc84abd3d5e71abb700502b</MD5>
 			</ConfigFile>
 		</Module>
-		<!-- <Module name="BiomeTweaker" id="biometweaker" depends="" side="BOTH">
+		<Module name="BiomeTweaker" id="biometweaker" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/mods/BiomeTweaker-1.12.2-3.2.354.jar</URL>
 			<Size>570149</Size>
 			<Required>true</Required>
@@ -1831,7 +1831,7 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c61314e58fcc7b22601015f94068be20</MD5>
 			</ConfigFile>
-		</Module> -->
+		</Module>
 		<Module name="Minecraft Forge" id="forge-14.23.5.2806" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
