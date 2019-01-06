@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ModListv1.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="tcs" abstract="false" name="TCS" newsUrl="http://mwkinz.com/modpack/TCS.xml" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2806">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2806">Forge</Import>
 		<Module name="Biome Bundle" id="biomebundle" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/mods/Biome_Bundle-1.12.2-v6.1.jar</URL>
 			<Size>13792706</Size>
@@ -1833,34 +1833,19 @@
 				<MD5>c61314e58fcc7b22601015f94068be20</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Minecraft Forge" id="forge-14.23.5.2806" depends="" side="BOTH">
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Override</ModType>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/config/forge.cfg</URL>
-				<Path>config/forge.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bee77d51b82699b95bf5c02788f654fb</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/config/forgeChunkLoading.cfg</URL>
-				<Path>config/forgeChunkLoading.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>95ba05ef01861ee260b40c95e9cc5aec</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/config/splash.properties</URL>
-				<Path>config/splash.properties</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a772fb909ee4d3f833969ffd82b2fd12</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Open Terrain Generator" id="openterraingenerator" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/mods/OpenTerrainGenerator-1.12.2%20-%20v6.jar</URL>
 			<Size>1138314</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
+			<Submodule name="OTG-Core" id="OTG-Core" depends="" side="BOTH">
+				<URL priority="0">http://mwkinz.com/modpack/mods/1.12.2/OTG-Core.jar</URL>
+				<ModPath>mods/1.12.2/OTG-Core.jar</ModPath>
+				<Size>13665</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>50876f4b88d1b9aaf4efe7b01bbb0f8d</MD5>
+			</Submodule>
 			<MD5>6f4bcf42544bf1b0795078ab8c4219cd</MD5>
 			<Meta>
 				<credits>Team OTG</credits>
@@ -20240,13 +20225,6 @@
 				<MD5>d34d3264068f75c4e9a479d83dbcc8e1</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="OTG-Core" id="OTG-Core" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/mods/1.12.2/OTG-Core.jar</URL>
-			<ModPath>mods/1.12.2/OTG-Core.jar</ModPath>
-			<Size>13665</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>50876f4b88d1b9aaf4efe7b01bbb0f8d</MD5>
-		</Module>
+
 	</Server>
 </ServerPack>
