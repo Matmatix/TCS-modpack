@@ -13,6 +13,7 @@
             mainClass="net.minecraft.launchwrapper.Launch"
             launcherType="Vanilla"
     >
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2806">Forge</Import>
 		<Module name="Biome Bundle" id="biomebundle" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Biome_Bundle-1.12.2-v6.1.jar</URL>
 			<Size>13792706</Size>
