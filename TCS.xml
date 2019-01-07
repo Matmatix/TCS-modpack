@@ -1852,6 +1852,20 @@
 				<MD5>9d64e2d77491e1b6a7b86152ffe7fafd</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="ComputerCraft" id="computercraft" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/ComputerCraft1.80pr1.jar</URL>
+            <Size>1641429</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>df638d71e9f8834cf7f0784cf4ab4f41</MD5>
+            <Meta>
+                <credits>Created by Daniel Ratcliffe (@DanTwoHundred)</credits>
+                <description>ComputerCraft adds Computers, Programming and Robotics to Minecraft.</description>
+                <version>1.80pr1</version>
+                <url>http://www.computercraft.info</url>
+                <authors>Daniel Ratcliffe, Aaron Mills</authors>
+            </Meta>
+        </Module>
 		<Module name="Open Terrain Generator" id="openterraingenerator" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/OpenTerrainGenerator-1.12.2%20-%20v6.jar</URL>
 			<Size>1138314</Size>
