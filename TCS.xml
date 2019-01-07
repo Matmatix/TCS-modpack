@@ -1855,26 +1855,6 @@
 			<Size>1138314</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-            <Submodule name="OTG-Core" id="OTG-Core" depends="" side="BOTH">
-                <URL priority="0">http://mwkinz.com/modpack/package/mods/1.12.2/OTG-Core.jar</URL>
-                <ModPath>mods/1.12.2/OTG-Core.jar</ModPath>
-                <Size>13665</Size>
-                <Required>true</Required>
-                <ModType>Regular</ModType>
-                <MD5>50876f4b88d1b9aaf4efe7b01bbb0f8d</MD5>
-                <ConfigFile>
-                    <URL priority="0">http://mwkinz.com/modpack/package/config/forge.cfg</URL>
-                    <Path>config/forge.cfg</Path>
-                    <NoOverwrite>false</NoOverwrite>
-                    <MD5>bee77d51b82699b95bf5c02788f654fb</MD5>
-                </ConfigFile>
-                <ConfigFile>
-                    <URL priority="0">http://mwkinz.com/modpack/package/config/splash.properties</URL>
-                    <Path>config/splash.properties</Path>
-                    <NoOverwrite>false</NoOverwrite>
-                    <MD5>a772fb909ee4d3f833969ffd82b2fd12</MD5>
-                </ConfigFile>
-            </Submodule>
             <MD5>6f4bcf42544bf1b0795078ab8c4219cd</MD5>
 			<Meta>
 				<credits>Team OTG</credits>
@@ -20632,5 +20612,25 @@
 				<MD5>64217339e0c970d95ff702edb8b326c8</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="OTG-Core" id="OTG-Core" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/1.12.2/OTG-Core.jar</URL>
+            <ModPath>mods/1.12.2/OTG-Core.jar</ModPath>
+            <Size>13665</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>50876f4b88d1b9aaf4efe7b01bbb0f8d</MD5>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/forge.cfg</URL>
+                <Path>config/forge.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>bee77d51b82699b95bf5c02788f654fb</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/splash.properties</URL>
+                <Path>config/splash.properties</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>a772fb909ee4d3f833969ffd82b2fd12</MD5>
+            </ConfigFile>
+        </Module>
 	</Server>
 </ServerPack>
