@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_leaves",
+  "Registry ID": "golems:textures/entity/golem_leaves.png",
+  "Class": "com.golems.entity.EntityLeafGolem"
+}

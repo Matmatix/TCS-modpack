@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_crafting",
+  "Registry ID": "golems:textures/entity/golem_crafting.png",
+  "Class": "com.golems.entity.EntityCraftingGolem"
+}

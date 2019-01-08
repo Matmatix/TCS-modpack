@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_shroom",
+  "Registry ID": "golems:textures/entity/golem_shroom.png",
+  "Class": "com.golems.entity.EntityMushroomGolem"
+}
