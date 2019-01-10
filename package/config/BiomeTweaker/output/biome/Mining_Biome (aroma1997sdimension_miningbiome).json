@@ -20,7 +20,6 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},

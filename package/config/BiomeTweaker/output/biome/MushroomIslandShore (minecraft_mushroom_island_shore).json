@@ -27,22 +27,21 @@
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "net.minecraft.entity.passive.EntityMooshroom",
+      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
+      "Weight": 3,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
       "Weight": 8,
       "Min Group Count": 4,
-      "Max Group Count": 8
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityBat",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 8
-    }
-  ],
+  "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
   "Tweaked": false,
   "BOP Generators": {

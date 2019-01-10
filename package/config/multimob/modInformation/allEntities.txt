@@ -277,6 +277,12 @@ astralsorcery:entityobservatoryhelper
 astralsorcery:entityshootingstar
 astralsorcery:entityitemdamageresistant
 quark:seat
+quark:arrow_ender
+quark:arrow_explosive
+quark:arrow_torch
+quark:dragon_breath_bottle
+quark:soul_powder
+quark:parrot_egg
 quark:pirate
 quark:wraith
 quark:dweller
@@ -285,13 +291,6 @@ quark:flat_item_frame
 quark:colored_item_frame
 quark:glass_item_frame
 quark:chest_passenger
-quark:arrow_ender
-quark:arrow_explosive
-quark:arrow_torch
-quark:dragon_breath_bottle
-quark:soul_powder
-quark:parrot_egg
-ichunutil:entity_block
 bibliocraft:biblioseat
 biomesoplenty:mudball
 biomesoplenty:bop_boat
@@ -326,6 +325,7 @@ careerbees:entitychunkdata
 careerbees:beeswarm
 chickens:chickenschicken
 chickens:thown_egg
+ichunutil:entity_block
 clumps:xp_orb_big
 darkutils:fake_tnt
 props:chair
@@ -821,8 +821,8 @@ thaumcraft:taintacletiny
 thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
-enderio:falling_machine
 enderio:primed_charge
+enderio:falling_machine
 enderio:owl_egg
 twilightforest:wild_boar
 twilightforest:bighorn_sheep
@@ -1073,7 +1073,6 @@ extrabotany:subspacespear
 extrabotany:judahspear
 extrabotany:judahoath
 cfm:mountable_block
-cfm:mirror
 giacomos_fishing_net:netdry
 silentgems:chaosprojectile
 silentgems:chaosprojectilehoming

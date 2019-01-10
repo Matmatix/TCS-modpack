@@ -23,8 +23,40 @@
     "VOID"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [],
-  "Spawnable Monsters": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
+      "Weight": 3,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityBasicVampire",
+      "Weight": 75,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityAdvancedVampire",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,

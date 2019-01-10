@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "VOID",
     "MAGICAL",
-    "SPOOKY",
     "DRY",
-    "COLD"
+    "COLD",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
