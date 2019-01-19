@@ -37911,104 +37911,20 @@ Lilylicious - Assistant developer.</credits>
 			<ModType>Regular</ModType>
 			<MD5>4947a7eb44faf116da7d51e44fe09b21</MD5>
 		</Module>
-		<Module name="Railcraft" id="railcraft" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/railcraft-12.0.0-beta-3.jar</URL>
-			<Size>5489594</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>fedd4b96f6eed7d1256c0d12d1f1a117</MD5>
-			<Meta>
-				<credits>Created by CovertJaguar</credits>
-				<description>Redefine your rails</description>
-				<version>12.0.0-beta-3</version>
-				<url>http://railcraft.info/</url>
-				<authors>CovertJaguar</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/blocks.cfg</URL>
-				<Path>config/railcraft/blocks.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>972a59e3177109027274e8560d1c63f7</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/client.cfg</URL>
-				<Path>config/railcraft/client.cfg</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>c9b594fb9b6e0674ea4f1566c23d6665</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/entities.cfg</URL>
-				<Path>config/railcraft/entities.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5159645dd87646aa340aaa9f5eba2e77</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/items.cfg</URL>
-				<Path>config/railcraft/items.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9b7cf78c91cce22ec98e5843c8f05ce7</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/modules.cfg</URL>
-				<Path>config/railcraft/modules.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d84d53c9e8171aad894eda52ccdf17ce</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_copper.cfg</URL>
-				<Path>config/railcraft/ores/mine_copper.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ff00c4cac67350293e98ef521ab1d63f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_gold.cfg</URL>
-				<Path>config/railcraft/ores/mine_gold.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1a19e1543be29407f1d672a9de7c6c1e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_iron.cfg</URL>
-				<Path>config/railcraft/ores/mine_iron.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e594128526b6408a66449a2d782cdda9</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_lead.cfg</URL>
-				<Path>config/railcraft/ores/mine_lead.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b0f05348b8672bbb1800436b27be3a2f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_nickel.cfg</URL>
-				<Path>config/railcraft/ores/mine_nickel.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bdc9e882436a023ee4b6a1d240059df8</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_silver.cfg</URL>
-				<Path>config/railcraft/ores/mine_silver.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>66fd12392809418adc0dba68f3859283</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_tin.cfg</URL>
-				<Path>config/railcraft/ores/mine_tin.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d93ba483adb6194ce5ef9b295bbd524b</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/ores/mine_zinc.cfg</URL>
-				<Path>config/railcraft/ores/mine_zinc.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f0defe76a18d3099c5bc2fb47f166894</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/railcraft/railcraft.cfg</URL>
-				<Path>config/railcraft/railcraft.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5d7e5aa95b09d692ec6ecfc7ea11d17f</MD5>
-			</ConfigFile>
-		</Module>
+        <Module name="Railcraft" id="railcraft" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/railcraft-12.0.0-beta-4.jar</URL>
+            <Size>5493949</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>186887ee5a268dbaf020bf75d2ece7dd</MD5>
+            <Meta>
+                <credits>Created by CovertJaguar</credits>
+                <description>Redefine your rails</description>
+                <version>12.0.0-beta-4</version>
+                <url>http://railcraft.info/</url>
+                <authors>CovertJaguar</authors>
+            </Meta>
+        </Module>
 		<Module name="RainingHat" id="RainingHat" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/hats/RainingHat.tbl</URL>
 			<Size>1259</Size>
