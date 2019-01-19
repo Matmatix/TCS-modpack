@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_quartz",
+  "Registry ID": "golems:textures/entity/golem_quartz.png",
+  "Class": "com.golems.entity.EntityQuartzGolem"
+}
