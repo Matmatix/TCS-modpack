@@ -1,6 +1,6 @@
 
 {
-  "ID": 150,
+  "ID": 68,
   "Name": "Forgotten Highlands",
   "Resource Location": "aether:aether_forgotten_highlands",
   "Class": "com.gildedgames.aether.common.world.aether.biomes.forgotten_highlands.BiomeForgottenHighlands",
@@ -29,37 +29,11 @@
       "Weight": 10,
       "Min Group Count": 3,
       "Max Group Count": 5
-    },
-    {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

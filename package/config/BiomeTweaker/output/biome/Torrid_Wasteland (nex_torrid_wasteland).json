@@ -1,6 +1,6 @@
 
 {
-  "ID": 182,
+  "ID": 87,
   "Name": "Torrid Wasteland",
   "Resource Location": "nex:torrid_wasteland",
   "Class": "nex.world.biome.BiomeTorridWasteland",
@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "NETHER",
-    "PLAINS",
     "SAVANNA",
     "WASTELAND",
-    "HOT",
-    "DRY"
+    "PLAINS",
+    "DRY",
+    "NETHER",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -36,25 +36,91 @@
       "Max Group Count": 5
     },
     {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityGouldianfinch",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityHummingbird",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityMagpie",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityOstrich",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPeafowl",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPigeon",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityRoadrunner",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityCardinal",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityBluejay",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityRobin",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityCrane",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityKookaburra",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
       "Entity Class": "com.progwml6.natura.entities.entity.passive.EntityImp",
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 12
-    },
-    {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityOvisAtre",
-      "Weight": 90,
-      "Min Group Count": 1,
-      "Max Group Count": 6
     }
   ],
   "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityMagmaCube",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
     {
       "Entity Class": "nex.entity.monster.EntityEmber",
       "Weight": 50,
@@ -84,36 +150,10 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 6
-    },
-    {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityNetherCreeper",
-      "Weight": 3,
-      "Min Group Count": 0,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

@@ -20,56 +20,32 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DRY",
     "DEAD",
-    "WASTELAND",
     "WATER",
-    "HOT",
     "MOUNTAIN",
-    "DRY"
+    "WASTELAND",
+    "HOT"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
     {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
-      "Weight": 8,
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
     }
   ],
-  "Spawnable Monsters": [
+  "Spawnable Cave Creatures": [
     {
-      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-      "Weight": 3,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
       "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityLesserShoggoth",
-      "Weight": 3,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 8,
+      "Max Group Count": 8
     }
   ],
-  "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
   "Tweaked": false,
   "BOP Generators": {

@@ -4,8 +4,8 @@
   "Name": "Bog",
   "Resource Location": "biomesoplenty:bog",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBog",
-  "Root Height": -0.11764706,
-  "Height Variation": 0.012500001,
+  "Root Height": -0.05882353,
+  "Height Variation": 0.09375,
   "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dloamy]",
   "Filler Block": "biomesoplenty:dirt[coarse\u003dfalse,variant\u003dloamy]",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
@@ -13,101 +13,125 @@
   "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-  "Water Color": "12386198",
+  "Water Color": "16777215",
   "Temperature": 0.5,
   "Humidity": 0.9,
-  "Water Tint": 12386198,
+  "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "SWAMP",
     "WET",
+    "FOREST",
     "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
-      "Weight": 8,
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
       "Min Group Count": 4,
       "Max Group Count": 4
     },
     {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityCanisCampestris",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityBlackBear",
-      "Weight": 3,
-      "Min Group Count": 0,
-      "Max Group Count": 2
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
     {
-      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-      "Weight": 3,
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 95,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+      "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityBasicVampire",
-      "Weight": 75,
-      "Min Group Count": 1,
-      "Max Group Count": 2
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityAdvancedVampire",
-      "Weight": 7,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
       "Weight": 10,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityLesserShoggoth",
-      "Weight": 3,
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
-      "Weight": 40,
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 3
     }
   ],
-  "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
   "Spawn Biome": true,
   "Tweaked": false,
   "BOP Generators": {
-    "BIG_SHROOM Generators": [
-      {
-        "ID": "big_mushrooms",
-        "Name": "big_brown_mushroom"
-      }
-    ],
     "LILYPAD Generators": [
+      {
+        "ID": "flora",
+        "Name": "algae"
+      },
       {
         "ID": "flora",
         "Name": "water_reeds"
@@ -125,6 +149,10 @@
       {
         "ID": "flora",
         "Name": "cattail"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
       },
       {
         "ID": "flora",
@@ -153,6 +181,10 @@
       {
         "ID": "double_flora",
         "Name": "double_cattail"
+      },
+      {
+        "ID": "columns",
+        "Name": "river_cane"
       }
     ],
     "GRASS Generators": [
@@ -185,10 +217,6 @@
       {
         "ID": "flora",
         "Name": "brown_mushrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "toadstools"
       },
       {
         "ID": "flora",

@@ -20,73 +20,38 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "DENSE",
     "WATER",
+    "DENSE",
+    "JUNGLE",
     "WET",
-    "JUNGLE"
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityCanisCampestris",
-      "Weight": 4,
+      "Entity Class": "net.minecraft.entity.passive.EntityParrot",
+      "Weight": 40,
       "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityBlackBear",
-      "Weight": 3,
-      "Min Group Count": 0,
       "Max Group Count": 2
     }
   ],
-  "Spawnable Monsters": [
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
     {
-      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-      "Weight": 3,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
       "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityLesserShoggoth",
-      "Weight": 3,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
-      "Weight": 40,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
-  "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
   "Spawn Biome": true,
   "Tweaked": false,
   "BOP Generators": {

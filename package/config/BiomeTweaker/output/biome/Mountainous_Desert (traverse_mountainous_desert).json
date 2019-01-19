@@ -1,6 +1,6 @@
 
 {
-  "ID": 192,
+  "ID": 97,
   "Name": "Mountainous Desert",
   "Resource Location": "traverse:mountainous_desert",
   "Class": "prospector.traverse.world.biomes.BiomeMountainousDesert",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "MOUNTAIN",
+    "SANDY",
     "DRY",
-    "SANDY"
+    "MOUNTAIN",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -32,67 +32,120 @@
   },
   "Spawnable Creatures": [
     {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
+      "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+      "Weight": 4,
       "Min Group Count": 2,
-      "Max Group Count": 4
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityOstrich",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityRoadrunner",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityVulture",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
     {
-      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityBasicVampire",
-      "Weight": 75,
-      "Min Group Count": 1,
-      "Max Group Count": 2
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityAdvancedVampire",
-      "Weight": 7,
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 19,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityHusk",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "crazypants.enderzoo.entity.EntityConcussionCreeper",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "crazypants.enderzoo.entity.EntityWitherWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
-  "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
   "Spawn Biome": true,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {
-    "TROPICAL": [
-      2
-    ],
-    "SAVANNA": [
-      2
-    ],
-    "HOT_DESERT": [
-      2
-    ],
-    "WASTELAND": [
-      2
-    ]
-  },
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

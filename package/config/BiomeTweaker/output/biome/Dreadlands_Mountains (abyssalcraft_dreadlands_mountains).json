@@ -1,6 +1,6 @@
 
 {
-  "ID": 218,
+  "ID": 122,
   "Name": "Dreadlands Mountains",
   "Resource Location": "abyssalcraft:dreadlands_mountains",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenMountainDreadlands",
@@ -35,12 +35,6 @@
       "Weight": 10,
       "Min Group Count": 3,
       "Max Group Count": 5
-    },
-    {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
@@ -144,25 +138,5 @@
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

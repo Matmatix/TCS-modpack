@@ -1,6 +1,6 @@
 
 {
-  "ID": 122,
+  "ID": 49,
   "Name": "Mushroom Forest",
   "Resource Location": "twilightforest:mushroom_forest",
   "Class": "twilightforest.biomes.TFBiomeMushrooms",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "MUSHROOM"
+    "MUSHROOM",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -38,10 +38,22 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "twilightforest.entity.passive.EntityTFDeer",
       "Weight": 15,
       "Min Group Count": 4,
       "Max Group Count": 5
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityWolf",
+      "Weight": 5,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "twilightforest.entity.passive.EntityTFTinyBird",
@@ -68,33 +80,106 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityHummingbird",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityKiwi",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityLyrebird",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityMagpie",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityOwl",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPeafowl",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPigeon",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityWoodpecker",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityCardinal",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityBluejay",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityRobin",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
       "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
-    },
+      "Entity Class": "crazypants.enderzoo.entity.EntityOwl",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Monsters": [
     {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityCanisCampestris",
-      "Weight": 4,
+      "Entity Class": "crazypants.enderzoo.entity.EntityEnderminy",
+      "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 3
     },
     {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityBlackBear",
-      "Weight": 3,
-      "Min Group Count": 0,
-      "Max Group Count": 2
+      "Entity Class": "crazypants.enderzoo.entity.EntityWitherWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
-  "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
     {
       "Entity Class": "twilightforest.entity.passive.EntityTFMobileFirefly",
       "Weight": 10,
@@ -103,25 +188,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

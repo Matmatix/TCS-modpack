@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 45,
   "Name": "Twilight Lake",
   "Resource Location": "twilightforest:twilight_lake",
   "Class": "twilightforest.biomes.TFBiomeTwilightLake",
@@ -38,10 +38,22 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "twilightforest.entity.passive.EntityTFDeer",
       "Weight": 15,
       "Min Group Count": 4,
       "Max Group Count": 5
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityWolf",
+      "Weight": 5,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "twilightforest.entity.passive.EntityTFTinyBird",
@@ -68,16 +80,22 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntitySeagull",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityBooby",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
       "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
-      "Min Group Count": 2,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
@@ -102,13 +120,19 @@
   ],
   "Spawnable Water Creatures": [
     {
-      "Entity Class": "nmd.primal.core.common.entities.living.EntityHammerHead",
-      "Weight": 1,
-      "Min Group Count": 0,
-      "Max Group Count": 1
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
     {
       "Entity Class": "twilightforest.entity.passive.EntityTFMobileFirefly",
       "Weight": 10,
@@ -117,25 +141,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

@@ -1,6 +1,6 @@
 
 {
-  "ID": 117,
+  "ID": 44,
   "Name": "Outer Lands",
   "Resource Location": "thaumcraft:eldritch",
   "Class": "thaumcraft.common.world.biomes.BiomeGenEldritch",
@@ -27,10 +27,10 @@
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityOwl",
+      "Weight": 6,
       "Min Group Count": 2,
-      "Max Group Count": 4
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -56,25 +56,5 @@
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

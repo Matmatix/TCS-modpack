@@ -1,6 +1,6 @@
 
 {
-  "ID": 207,
+  "ID": 111,
   "Name": "wizardry_underworld",
   "Resource Location": "wizardry:wizardry_underworld",
   "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeUnderWorld",
@@ -21,43 +21,29 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "VOID",
-    "MAGICAL",
     "DRY",
+    "MAGICAL",
     "COLD",
     "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "org.cyclops.energeticsheep.entity.EntityEnergeticSheep",
-      "Weight": 3,
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityOwl",
+      "Weight": 6,
       "Min Group Count": 2,
-      "Max Group Count": 4
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPenguinEmperor",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }
