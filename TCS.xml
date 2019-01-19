@@ -40005,7 +40005,7 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 				<MD5>953d51a0f2424adbb27b4b5ff2141308</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Tocatta &amp; Fugue" id="Tocatta&amp;Fugue" depends="" side="BOTH">
+		<Module name="Tocatta &amp; Fugue" id="TocattaFugue" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/clef/abc/Tocatta%20&amp;%20Fugue.abc</URL>
 			<Size>24446</Size>
 			<Required>true</Required>
