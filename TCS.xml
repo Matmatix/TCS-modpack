@@ -3728,7 +3728,7 @@
 				<authors>Drethic</authors>
 			</Meta>
 		</Module>
-		<Module name="BetterFps-1.4.8" id="BetterFps" depends="" side="BOTH">
+		<Module name="BetterFps-1.4.8" id="BetterFps" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/BetterFps-1.4.8.jar</URL>
 			<Size>155196</Size>
 			<Required>true</Required>
@@ -9883,7 +9883,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<MD5>ca9092804c3d5576e34098746b2843ff</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="BOTH">
+		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
 			<Size>177791</Size>
 			<Required>true</Required>
@@ -16269,7 +16269,7 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<MD5>1f9e4e7125c466cd7362d9e939b93b47</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="OptiFine_1.12.2_HD_U_E3" id="OptiFine_.._HD_U_E" depends="" side="BOTH">
+		<Module name="OptiFine_1.12.2_HD_U_E3" id="OptiFine_.._HD_U_E" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/OptiFine_1.12.2_HD_U_E3.jar</URL>
 			<Size>2444057</Size>
 			<Required>true</Required>
