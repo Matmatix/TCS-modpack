@@ -35,12 +35,19 @@
 				<MD5>2276b77dd7921f151de54ae48647b59c</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="[1.12.2] SecurityCraft v1.8.10" id="[..]SecurityCraftv" depends="" side="BOTH">
+		<Module name="SecurityCraft" id="SecurityCraft" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/[1.12.2]%20SecurityCraft%20v1.8.10.jar</URL>
 			<Size>1357318</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>d89a9f6e78b74d263211ed68e133e98e</MD5>
+            <Meta>
+                <credits></credits>
+                <description>SecurityCraft adds exactly what the name suggests! Lasers, retinal scanners, keypads, unbreakable doors and more. </description>
+                <version>1.12.2-v1.8.10</version>
+                <url>https://minecraft.curseforge.com/projects/security-craft</url>
+                <authors>Geforce, bl4ckscor3, LordCazsius</authors>
+            </Meta>
 			<ConfigFile>
 				<URL priority="0">http://mwkinz.com/modpack/package/config/securitycraft.cfg</URL>
 				<Path>config/securitycraft.cfg</Path>
