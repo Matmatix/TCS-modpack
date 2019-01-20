@@ -1,6 +1,6 @@
 
 {
-  "ID": 83,
+  "ID": 76,
   "Name": "Degraded",
   "Resource Location": "evilcraft:biome_degraded",
   "Class": "org.cyclops.evilcraft.world.biome.BiomeDegraded",

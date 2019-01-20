@@ -1,6 +1,6 @@
 
 {
-  "ID": 102,
+  "ID": 95,
   "Name": "Glacier",
   "Resource Location": "traverse:glacier",
   "Class": "prospector.traverse.world.biomes.BiomeGlacier",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
     "MOUNTAIN",
+    "SNOWY",
     "COLD"
   ],
   "BiomeManager Entries": {

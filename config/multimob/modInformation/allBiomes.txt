@@ -85,13 +85,6 @@ twilightforest:dark_forest_center
 twilightforest:highlands_center
 twilightforest:thornlands
 appliedenergistics2:storage_biome
-aether:aether_highlands
-aether:aether_magnetic_hills
-aether:aether_arctic_peaks
-aether:aether_forgotten_highlands
-aether:aether_irradiated_forests
-aether:aether_void
-aether:instanced_zone
 buildcraftenergy:oil_ocean
 buildcraftenergy:oil_desert
 erebus:underground_jungle
