@@ -155,9 +155,9 @@
 			<MD5>f4de72dc35076036f4624c66a433c967</MD5>
 			<Meta>
 				<credits>Development: canitzp</credits>
-				<description></description>
+				<description>This mods adds the ability to get and set specified values at ActuallyAdditions machines from a OpenComputers program.</description>
 				<version>2.1.0</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/actuallycomputers</url>
 				<authors>canitzp</authors>
 			</Meta>
 		</Module>
@@ -311,26 +311,6 @@
 				<MD5>a31c7deefb9985e7e6338ab2ace29a2c</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="AE2 Wireless Terminals (AE2WTLib)" id="ae2wtlib" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
-			<Size>165113</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>71312cf271fce761a4ef5ac43e78c000</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A Library which provides basic functions to create AE2 Wireless Terminals with infinite range capabilities</description>
-				<version>1.12.2-1.0.6</version>
-				<url></url>
-				<authors>TheRealp455w0rd</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/AE2WirelessTerminals.cfg</URL>
-				<Path>config/AE2WirelessTerminals.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>edd5825f81187ade0eb435dd173f0703</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="AetherWorks" id="aetherworks" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/AetherWorks-1.12.2-1.0.0.3.jar</URL>
 			<Size>444205</Size>
@@ -341,7 +321,7 @@
 				<credits>MinecraftForge team for Forge API, Elucent for Embers, Azanor for Baubles. This mod is an addon to Embers by Elucent and uses some of textures from Embers to blend in with the original mod. All credits for such textures go to Elucent</credits>
 				<description>An addon to Embers by Elucent that introduces Aether shards - a rare and valuable material you can process with Embers to create truly powerful tools</description>
 				<version>1.12.2-1.0.0.3</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/aetherworks</url>
 				<authors>V0idWa1k3r</authors>
 			</Meta>
 			<ConfigFile>
@@ -20499,9 +20479,29 @@ All the users of UniDict.</credits>
 				<credits></credits>
 				<description>Adds a wireless version of the AE2 crafting terminal</description>
 				<version>1.12.2-3.11.88</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/wireless-crafting-terminal</url>
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
+            <Submodule name="AE2 Wireless Terminals (lib)" id="ae2wtlib" depends="" side="BOTH">
+                <URL priority="0">http://mwkinz.com/modpack/package/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
+                <Size>165113</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>71312cf271fce761a4ef5ac43e78c000</MD5>
+                <Meta>
+                    <credits></credits>
+                    <description>A Library which provides basic functions to create AE2 Wireless Terminals with infinite range capabilities</description>
+                    <version>1.12.2-1.0.6</version>
+                    <url></url>
+                    <authors>TheRealp455w0rd</authors>
+                </Meta>
+                <ConfigFile>
+                    <URL priority="0">http://mwkinz.com/modpack/package/config/AE2WirelessTerminals.cfg</URL>
+                    <Path>config/AE2WirelessTerminals.cfg</Path>
+                    <NoOverwrite>false</NoOverwrite>
+                    <MD5>edd5825f81187ade0eb435dd173f0703</MD5>
+                </ConfigFile>
+            </Submodule>
 		</Module>
 		<Module name="WirelessCharger" id="wirelesscharger" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/WirelessCharger-1.12.2-1.0.6.jar</URL>
