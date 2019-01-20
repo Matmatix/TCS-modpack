@@ -1,6 +1,6 @@
 
 {
-  "ID": 147,
+  "ID": 138,
   "Name": "Swamplands",
   "Resource Location": "thebetweenlands:swamplands",
   "Class": "thebetweenlands.common.world.biome.BiomeSwamplands",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
+    "FOREST",
     "SWAMP",
-    "WET",
+    "DENSE",
     "WATER",
-    "FOREST"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

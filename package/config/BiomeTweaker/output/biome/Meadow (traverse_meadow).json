@@ -1,6 +1,6 @@
 
 {
-  "ID": 92,
+  "ID": 84,
   "Name": "Meadow",
   "Resource Location": "traverse:meadow",
   "Class": "prospector.traverse.world.biomes.BiomeMeadow",

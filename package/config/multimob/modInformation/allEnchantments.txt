@@ -46,13 +46,13 @@ minecraft:tb.eldritchbane
 minecraft:tb.elderknowledge
 minecraft:tb.tainted
 advancedrocketry:spacebreathing
-endercore:xpboost
 endercore:autosmelt
+endercore:xpboost
+enderio:witherweapon
+enderio:witherarrow
 enderio:soulbound
 enderio:shimmer
-enderio:witherweapon
 enderio:repellent
-enderio:witherarrow
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 ebwizardry:magic_sword
@@ -64,7 +64,6 @@ evilcraft:breaking
 evilcraft:life_stealing
 evilcraft:poison_tip
 evilcraft:vengeance
-notenoughscaffold:big_holes
 tg:regen_primal
 tombstone:shadow_step
 tombstone:soulbound

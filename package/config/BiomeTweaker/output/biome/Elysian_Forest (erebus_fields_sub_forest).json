@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 74,
   "Name": "Elysian Forest",
   "Resource Location": "erebus:fields_sub_forest",
   "Class": "erebus.world.biomes.BiomeElysianFields$BiomeElysianForest",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
+    "FOREST",
     "MAGICAL",
-    "FOREST"
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

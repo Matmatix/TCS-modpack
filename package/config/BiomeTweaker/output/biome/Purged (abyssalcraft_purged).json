@@ -1,6 +1,6 @@
 
 {
-  "ID": 125,
+  "ID": 117,
   "Name": "Purged",
   "Resource Location": "abyssalcraft:purged",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomePurged",

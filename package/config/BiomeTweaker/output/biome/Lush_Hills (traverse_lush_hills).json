@@ -1,6 +1,6 @@
 
 {
-  "ID": 106,
+  "ID": 98,
   "Name": "Lush Hills",
   "Resource Location": "traverse:lush_hills",
   "Class": "prospector.traverse.world.biomes.BiomeLushHills",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "LUSH",
-    "WET",
+    "SPARSE",
     "HILLS",
-    "SPARSE"
+    "WET"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

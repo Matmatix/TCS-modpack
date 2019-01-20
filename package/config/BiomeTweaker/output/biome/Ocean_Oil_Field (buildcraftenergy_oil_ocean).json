@@ -1,6 +1,6 @@
 
 {
-  "ID": 72,
+  "ID": 65,
   "Name": "Ocean Oil Field",
   "Resource Location": "buildcraftenergy:oil_ocean",
   "Class": "buildcraft.energy.generation.BiomeOilOcean",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
     "WATER",
+    "OCEAN",
     "PLAINS"
   ],
   "BiomeManager Entries": {},

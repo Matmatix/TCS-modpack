@@ -1,6 +1,6 @@
 
 {
-  "ID": 88,
+  "ID": 80,
   "Name": "Arctic Abyss",
   "Resource Location": "nex:arctic_abyss",
   "Class": "nex.world.biome.BiomeArcticAbyss",
@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "PLAINS",
     "DRY",
     "NETHER",
-    "COLD"
+    "COLD",
+    "WET",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

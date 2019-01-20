@@ -1,6 +1,6 @@
 
 {
-  "ID": 113,
+  "ID": 105,
   "Name": "Darklands Forest",
   "Resource Location": "abyssalcraft:darklands_forest",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenDarklandsForest",
