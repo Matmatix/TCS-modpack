@@ -1,0 +1,6 @@
+
+{
+  "Name": "cabinet",
+  "Registry ID": "realfilingcabinet:entitycabinet",
+  "Class": "com.bafomdad.realfilingcabinet.entity.EntityCabinet"
+}

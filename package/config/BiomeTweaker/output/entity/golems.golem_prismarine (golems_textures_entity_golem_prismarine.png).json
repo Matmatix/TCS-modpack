@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_prismarine",
+  "Registry ID": "golems:textures/entity/golem_prismarine.png",
+  "Class": "com.golems.entity.EntityPrismarineGolem"
+}

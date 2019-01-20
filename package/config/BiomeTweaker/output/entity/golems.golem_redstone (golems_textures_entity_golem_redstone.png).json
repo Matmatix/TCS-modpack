@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_redstone",
+  "Registry ID": "golems:textures/entity/golem_redstone.png",
+  "Class": "com.golems.entity.EntityRedstoneGolem"
+}

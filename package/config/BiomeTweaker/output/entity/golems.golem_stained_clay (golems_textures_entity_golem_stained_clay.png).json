@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_stained_clay",
+  "Registry ID": "golems:textures/entity/golem_stained_clay.png",
+  "Class": "com.golems.entity.EntityStainedClayGolem"
+}

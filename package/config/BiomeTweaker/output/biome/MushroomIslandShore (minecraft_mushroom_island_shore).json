@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
+    "MUSHROOM",
     "BEACH",
-    "MUSHROOM"
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -31,6 +31,54 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityDuck",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityFlamingo",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPelican",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntitySeagull",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntitySwan",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityHeron",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityBooby",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [],
@@ -44,25 +92,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }

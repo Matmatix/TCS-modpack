@@ -1,0 +1,6 @@
+
+{
+  "Name": "golems.golem_sea_lantern",
+  "Registry ID": "golems:textures/entity/golem_sea_lantern.png",
+  "Class": "com.golems.entity.EntitySeaLanternGolem"
+}

@@ -20,56 +20,59 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "END",
     "DRY",
+    "END",
     "COLD"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPenguinEmperor",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    }
+  ],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "teamroots.emberroot.entity.slimedirt.EntityDireSlime",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "teamroots.emberroot.entity.spriteling.EntitySpriteling",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "teamroots.emberroot.entity.spritegreater.EntityGreaterSprite",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
-        "Name": "miners_delight"
-      },
-      {
-        "ID": "flora",
-        "Name": "roots"
-      }
-    ],
-    "ORE_PRE Generators": [
-      {
-        "ID": "crystals",
-        "Name": "crystals"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "amethyst"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "biome_essence"
-      }
-    ]
-  },
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
-  "BOP Climate Weights": {},
-  "BOP Island Weight": 0
+  "Tweaked": false
 }
