@@ -13,7 +13,7 @@
 				<credits></credits>
 				<description>Adds the /dank/null items from p455w0rd&apos;s Things 1.10.2 mod</description>
 				<version>1.12-1.4.43</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/dank-null</url>
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
 			<ConfigFile>
@@ -35,12 +35,19 @@
 				<MD5>2276b77dd7921f151de54ae48647b59c</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="[1.12.2] SecurityCraft v1.8.10" id="[..]SecurityCraftv" depends="" side="BOTH">
+		<Module name="SecurityCraft" id="SecurityCraft" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/[1.12.2]%20SecurityCraft%20v1.8.10.jar</URL>
 			<Size>1357318</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>d89a9f6e78b74d263211ed68e133e98e</MD5>
+            <Meta>
+                <credits></credits>
+                <description>SecurityCraft adds exactly what the name suggests! Lasers, retinal scanners, keypads, unbreakable doors and more. </description>
+                <version>1.12.2-v1.8.10</version>
+                <url>https://minecraft.curseforge.com/projects/security-craft</url>
+                <authors>Geforce, bl4ckscor3, LordCazsius</authors>
+            </Meta>
 			<ConfigFile>
 				<URL priority="0">http://mwkinz.com/modpack/package/config/securitycraft.cfg</URL>
 				<Path>config/securitycraft.cfg</Path>
@@ -148,9 +155,9 @@
 			<MD5>f4de72dc35076036f4624c66a433c967</MD5>
 			<Meta>
 				<credits>Development: canitzp</credits>
-				<description></description>
+				<description>This mods adds the ability to get and set specified values at ActuallyAdditions machines from a OpenComputers program.</description>
 				<version>2.1.0</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/actuallycomputers</url>
 				<authors>canitzp</authors>
 			</Meta>
 		</Module>
@@ -304,26 +311,6 @@
 				<MD5>a31c7deefb9985e7e6338ab2ace29a2c</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="AE2 Wireless Terminals (AE2WTLib)" id="ae2wtlib" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
-			<Size>165113</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>71312cf271fce761a4ef5ac43e78c000</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A Library which provides basic functions to create AE2 Wireless Terminals with infinite range capabilities</description>
-				<version>1.12.2-1.0.6</version>
-				<url></url>
-				<authors>TheRealp455w0rd</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/AE2WirelessTerminals.cfg</URL>
-				<Path>config/AE2WirelessTerminals.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>edd5825f81187ade0eb435dd173f0703</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="AetherWorks" id="aetherworks" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/AetherWorks-1.12.2-1.0.0.3.jar</URL>
 			<Size>444205</Size>
@@ -334,7 +321,7 @@
 				<credits>MinecraftForge team for Forge API, Elucent for Embers, Azanor for Baubles. This mod is an addon to Embers by Elucent and uses some of textures from Embers to blend in with the original mod. All credits for such textures go to Elucent</credits>
 				<description>An addon to Embers by Elucent that introduces Aether shards - a rare and valuable material you can process with Embers to create truly powerful tools</description>
 				<version>1.12.2-1.0.0.3</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/aetherworks</url>
 				<authors>V0idWa1k3r</authors>
 			</Meta>
 			<ConfigFile>
@@ -3013,7 +3000,7 @@
 				<credits>Thanks to BlueSunrize and Damien A.W. Hazard for creating the awesome mod Immersive Engineering</credits>
 				<description>Adds long distance power transmission to Immersive Engineering</description>
 				<version>0.12.2-1</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/alternating-flux</url>
 				<authors>AntiBlueQuirk</authors>
 			</Meta>
 			<ConfigFile>
@@ -3033,7 +3020,7 @@
 				<credits>Tamaized</credits>
 				<description>A Magic Based Minecraft Mod about being a Healer</description>
 				<version>0.9.4</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/angel-of-vengeance</url>
 				<authors>Tamaized</authors>
 			</Meta>
 			<ConfigFile>
@@ -3059,7 +3046,7 @@
 				<credits></credits>
 				<description>Make the Extra Utils 2 Angel Ring into a bauble</description>
 				<version>0.3.1</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/angel-ring-to-bauble</url>
 				<authors>Portablejim. Art by JamiesWhiteShirt</authors>
 			</Meta>
 			<ConfigFile>
@@ -3728,7 +3715,7 @@
 				<authors>Drethic</authors>
 			</Meta>
 		</Module>
-		<Module name="BetterFps-1.4.8" id="BetterFps" depends="" side="BOTH">
+		<Module name="BetterFps-1.4.8" id="BetterFps" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/BetterFps-1.4.8.jar</URL>
 			<Size>155196</Size>
 			<Required>true</Required>
@@ -9883,7 +9870,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<MD5>ca9092804c3d5576e34098746b2843ff</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="BOTH">
+		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
 			<Size>177791</Size>
 			<Required>true</Required>
@@ -15309,7 +15296,7 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<MD5>18502f550fb8d8eefc1bad1b9d9e5b94</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/MouseTweaks-2.9-mc1.12.2.jar</URL>
 			<Size>70086</Size>
 			<Required>true</Required>
@@ -16269,7 +16256,7 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<MD5>1f9e4e7125c466cd7362d9e939b93b47</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="OptiFine_1.12.2_HD_U_E3" id="OptiFine_.._HD_U_E" depends="" side="BOTH">
+		<Module name="OptiFine_1.12.2_HD_U_E3" id="OptiFine_.._HD_U_E" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/OptiFine_1.12.2_HD_U_E3.jar</URL>
 			<Size>2444057</Size>
 			<Required>true</Required>
@@ -20492,9 +20479,29 @@ All the users of UniDict.</credits>
 				<credits></credits>
 				<description>Adds a wireless version of the AE2 crafting terminal</description>
 				<version>1.12.2-3.11.88</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/wireless-crafting-terminal</url>
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
+            <Submodule name="AE2 Wireless Terminals (lib)" id="ae2wtlib" depends="" side="BOTH">
+                <URL priority="0">http://mwkinz.com/modpack/package/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
+                <Size>165113</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>71312cf271fce761a4ef5ac43e78c000</MD5>
+                <Meta>
+                    <credits></credits>
+                    <description>A Library which provides basic functions to create AE2 Wireless Terminals with infinite range capabilities</description>
+                    <version>1.12.2-1.0.6</version>
+                    <url></url>
+                    <authors>TheRealp455w0rd</authors>
+                </Meta>
+                <ConfigFile>
+                    <URL priority="0">http://mwkinz.com/modpack/package/config/AE2WirelessTerminals.cfg</URL>
+                    <Path>config/AE2WirelessTerminals.cfg</Path>
+                    <NoOverwrite>false</NoOverwrite>
+                    <MD5>edd5825f81187ade0eb435dd173f0703</MD5>
+                </ConfigFile>
+            </Submodule>
 		</Module>
 		<Module name="WirelessCharger" id="wirelesscharger" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/WirelessCharger-1.12.2-1.0.6.jar</URL>
