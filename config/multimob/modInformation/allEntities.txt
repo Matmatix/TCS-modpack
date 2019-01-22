@@ -233,9 +233,6 @@ astralsorcery:entityliquidspark
 astralsorcery:entityobservatoryhelper
 astralsorcery:entityshootingstar
 astralsorcery:entityitemdamageresistant
-quark:flat_item_frame
-quark:colored_item_frame
-quark:glass_item_frame
 quark:seat
 quark:chest_passenger
 quark:arrow_ender
@@ -248,6 +245,9 @@ quark:pirate
 quark:wraith
 quark:dweller
 quark:ashen
+quark:flat_item_frame
+quark:colored_item_frame
+quark:glass_item_frame
 ichunutil:entity_block
 bibliocraft:biblioseat
 botania:mana_burst
@@ -504,11 +504,6 @@ hatchery:roosterentity
 hatchery:thrownegg
 immersivepetroleum:speedboat
 industrialforegoing:pink_slime
-mysticalagriculture:inferium_arrow
-mysticalagriculture:prudentium_arrow
-mysticalagriculture:intermedium_arrow
-mysticalagriculture:superium_arrow
-mysticalagriculture:supremium_arrow
 rustic:tomato
 naturalpledge:sealarrow
 nex:ghast_queen_fireball
@@ -778,9 +773,9 @@ thaumcraft:taintacletiny
 thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
-enderio:primed_charge
 enderio:falling_machine
 enderio:owl_egg
+enderio:primed_charge
 twilightforest:wild_boar
 twilightforest:bighorn_sheep
 twilightforest:deer

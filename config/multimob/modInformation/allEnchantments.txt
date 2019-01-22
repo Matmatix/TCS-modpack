@@ -48,11 +48,11 @@ minecraft:tb.tainted
 advancedrocketry:spacebreathing
 endercore:autosmelt
 endercore:xpboost
-enderio:witherweapon
-enderio:witherarrow
-enderio:soulbound
 enderio:shimmer
 enderio:repellent
+enderio:witherarrow
+enderio:soulbound
+enderio:witherweapon
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 ebwizardry:magic_sword
