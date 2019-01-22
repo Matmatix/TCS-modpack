@@ -15296,7 +15296,7 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<MD5>18502f550fb8d8eefc1bad1b9d9e5b94</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="CLIENT">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/MouseTweaks-2.9-mc1.12.2.jar</URL>
 			<Size>70086</Size>
 			<Required>true</Required>
