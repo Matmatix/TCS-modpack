@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
     "FOREST",
+    "SNOWY",
     "CONIFEROUS",
     "COLD"
   ],
@@ -54,6 +54,78 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHedgehog",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowOldSpot",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowLargeWhite",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenWyandotte",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenRhodeIslandRed",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.EntityCowHolstein",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityToad",
+      "Weight": 16,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityDartFrogs",
+      "Weight": 16,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.EntityEweJacob",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeCottontail",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeNewZealand",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeLop",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "teamroots.emberroot.entity.deer.EntityDeer",

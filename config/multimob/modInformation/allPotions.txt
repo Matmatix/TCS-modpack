@@ -50,6 +50,12 @@ thaumcraft:deathgaze
 thaumcraft:blurredvision
 thaumcraft:sunscorned
 thaumcraft:thaumarhia
+botania:soulcross
+botania:featherfeet
+botania:emptiness
+botania:bloodthirst
+botania:allure
+botania:clear
 twilightforest:frosted
 tconstruct:carry
 tconstruct:enderference
@@ -91,12 +97,6 @@ aov:coldchill
 quark:curse
 quark:danger_sight
 bloodarsenal:bleeding
-botania:soulcross
-botania:featherfeet
-botania:emptiness
-botania:bloodthirst
-botania:allure
-botania:clear
 conarm:superhotpotion
 ebwizardry:frost
 ebwizardry:transience

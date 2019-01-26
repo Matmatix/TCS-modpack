@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DRY",
     "SANDY",
-    "HOT",
-    "DRY"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -31,6 +31,24 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.EntityDoeNigerianDwarf",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeJack",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",

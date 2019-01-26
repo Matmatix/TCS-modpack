@@ -32,6 +32,12 @@
       "Max Group Count": 8
     },
     {
+      "Entity Class": "com.animania.common.entities.cows.EntityCowMooshroom",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
       "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
       "Weight": 8,
       "Min Group Count": 4,

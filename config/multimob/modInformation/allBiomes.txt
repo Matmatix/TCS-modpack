@@ -138,6 +138,7 @@ abyssalcraft:dreadlands_mountains
 abyssalcraft:omothol
 abyssalcraft:dark_realm
 abyssalcraft:purged
+aroma1997sdimension:miningbiome
 advancedrocketry:moon
 advancedrocketry:alien forest
 advancedrocketry:hotdryrock
@@ -148,7 +149,6 @@ advancedrocketry:deepswamp
 advancedrocketry:marsh
 advancedrocketry:oceanspires
 advancedrocketry:moondark
-aroma1997sdimension:miningbiome
 beneath:the_beneath
 thebetweenlands:patchy_islands
 thebetweenlands:swamplands

@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
-    "HOT",
     "DRY",
-    "HILLS",
+    "SPARSE",
+    "RARE",
     "SAVANNA",
-    "RARE"
+    "HILLS",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -64,6 +64,114 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.horses.EntityMareDraftHorse",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityFerretGrey",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityFerretWhite",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowHampshire",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.EntityCowHereford",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.EntityCowHighland",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.EntityCowLonghorn",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.EntityDoeAlpine",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.EntityDoeKiko",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.EntityDoeKinder",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.EntityDoePygmy",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.EntityEweDorset",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.EntityEweSuffolk",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.EntityEweDorper",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeChinchilla",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeHavana",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeJack",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.EntityRabbitDoeRex",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
