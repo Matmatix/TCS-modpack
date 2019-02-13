@@ -3056,6 +3056,26 @@
 				<MD5>1931c2ea9bb8929f111a1710bcafb07d</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="Animania" id="animania" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/animania-1.12.2-1.6.2.jar</URL>
+            <Size>8953456</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>b36e2692dded419cc2bd2612382ed1d7</MD5>
+            <Meta>
+                <credits>Game concept, creative direction, models, textures, animation, sound design, and development by RazzleberryFox, Purplicious_Cow, cy4n, Tschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien</credits>
+                <description>Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops.</description>
+                <version>1.6.2</version>
+                <url></url>
+                <authors>RazzleberryFox, Purplicious_Cow, cy4n, Tschipp, ZeAmateis, Timmypote, Raptorfarian, vroulas, and TheJurassicAlien</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/animania.cfg</URL>
+                <Path>config/animania.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>820f7fea507f800a9c8d2ddeff797fc6</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="Animus" id="animus" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Animus-2.0.4.jar</URL>
 			<Size>336105</Size>
@@ -3475,6 +3495,20 @@
 			<ModType>Regular</ModType>
 			<MD5>f0c255c69f8380562c99778b978e7e98</MD5>
 		</Module>
+        <Module name="Avaritia" id="Avaritia" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/Avaritia-1.12.2-3.3.0.33-universal.jar</URL>
+            <Size>972581</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>8eedd678495a7ce0958c026a7873fc62</MD5>
+            <Meta>
+                <credits>Vazkii, Greg, brandon3055, vswe, Algorithm</credits>
+                <description>A mod to see how hard people are willing to grind.</description>
+                <version>3.3.0.33</version>
+                <url></url>
+                <authors>SpitefulFox, TTFTCUTS</authors>
+            </Meta>
+        </Module>
 		<Module name="B.A.S.E" id="base" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/base-1.12.2-3.11.0.jar</URL>
 			<Size>622380</Size>
@@ -13091,6 +13125,68 @@
 				<authors>oneandonlyflexo</authors>
 			</Meta>
 		</Module>
+        <Module name="Brandon&apos;s Core" id="brandonscore" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/BrandonsCore-1.12.2-2.4.9.195-universal.jar</URL>
+            <Size>896667</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>d20f853e3baf1385e8d07077ecff3dff</MD5>
+            <Meta>
+                <credits></credits>
+                <description>Brandon&apos;s Core is a library mod used by most of my mods. It is no longer a core mod as the name would suggest but it does still contain a lot of the core code used by my mods including but not limited to base classes for various tiles, blocks and items, A powerful modular gui system and a lot of other miscellaneous utilities.</description>
+                <version>1.12.2-2.4.9.195</version>
+                <url>http://minecraft.curseforge.com/projects/brandons-core</url>
+                <authors>brandon3055</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/brandon3055/BrandonsCore.cfg</URL>
+                <Path>config/brandon3055/BrandonsCore.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>438b59d04e5bbad48c903c8f3de4443b</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/brandon3055/Custom%20Fusion%20Recipe%20Info.txt</URL>
+                <Path>config/brandon3055/Custom Fusion Recipe Info.txt</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>c637428607f9d960f9486e545324fe11</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/brandon3055/DraconicEvolution.cfg</URL>
+                <Path>config/brandon3055/DraconicEvolution.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>0dc73277e12e2080cdc61d804cdf2a31</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/brandon3055/ProjectIntelligence/manifest.json</URL>
+                <Path>config/brandon3055/ProjectIntelligence/manifest.json</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>c9012e887bfce8d486310cb9731113b1</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/brandon3055/ProjectIntelligence/ModDocs/Draconic%20Evolution/draconicevolution-en_US.xml</URL>
+                <Path>config/brandon3055/ProjectIntelligence/ModDocs/Draconic Evolution/draconicevolution-en_US.xml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>30308f359089a77c14b057a97eeb3881</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/brandon3055/ProjectIntelligence/options.json</URL>
+                <Path>config/brandon3055/ProjectIntelligence/options.json</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>646fec6ff2644fd9fc473238201939b1</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/brandon3055/ProjectIntelligence/projectintelligence.xml</URL>
+                <Path>config/brandon3055/ProjectIntelligence/projectintelligence.xml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>15ab5b765a15e52fb4a21497a6a1803a</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/malisiscore.cfg</URL>
+                <Path>config/malisiscore.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>95033c96d58a32db8f3149d06d8a4c71</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="BuildCraft Lib" id="buildcraftlib" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/buildcraft-7.99.19.jar</URL>
 			<Size>4406315</Size>
@@ -14306,6 +14402,26 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
+        <Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/CookingForBlockheads_1.12.2-6.4.69.jar</URL>
+            <Size>586812</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>f53121423ac9056e59a726dd3acc62ac</MD5>
+            <Meta>
+                <credits>BlayTheNinth</credits>
+                <description>Adds a cooking book and multiblock kitchens that only shows recipes you can make with what you currently have in your inventory.</description>
+                <version>6.4.69</version>
+                <url></url>
+                <authors>BlayTheNinth</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/cookingforblockheads.cfg</URL>
+                <Path>config/cookingforblockheads.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>c6b11686778ee608215bd1125e651ae0</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="Corail Scanner" id="scanner" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/scanner-1.1.4-1.12.jar</URL>
 			<Size>180284</Size>
@@ -14496,6 +14612,26 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<MD5>555f3520a47fe8c39c0c403745406eea</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="CraftStudio API" id="craftstudioapi" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar</URL>
+            <Size>90465</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>e6dcc9b9784d52aa67f6e706eccb2cb2</MD5>
+            <Meta>
+                <credits>See https://github.com/Leviathan-Studio/CraftStudioAPI/blob/master/CREDITS.md</credits>
+                <description>A CraftStudio API for models/animations support in Minecraft</description>
+                <version>1.0.1</version>
+                <url></url>
+                <authors>ZeAmateis, Timmypote, Elisee, IncubeSupreme, Phenix246</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/Galacticraft/chunkloading.conf</URL>
+                <Path>config/Galacticraft/chunkloading.conf</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>b5ef1f473fd07f4c6c117064ed49a840</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/CraftTweaker2-1.12-4.1.13.jar</URL>
 			<Size>1315744</Size>
@@ -14995,6 +15131,86 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<MD5>c909e414087d4e9e0bfb4fcad8048b45</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="Draconic Evolution" id="draconicevolution" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/Draconic-Evolution-1.12.2-2.3.18.329-universal.jar</URL>
+            <Size>5674864</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>ca0fb7aad413e32a01588eaf91851213</MD5>
+            <Meta>
+                <credits></credits>
+                <description>This is a mod that was originally made for the Tolkiencraft mod pack but it has since evolved way beyond that. This mod adds a lot of extremely expensive and powerful end game items as well as a lot of random useful bits and pieces.</description>
+                <version>1.12.2-2.3.18.329</version>
+                <url>http://www.brandon3055.com/</url>
+                <authors>brandon3055</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/expequiv/draconicevolution/ExpansionDraconicEvolution.cfg</URL>
+                <Path>config/expequiv/draconicevolution/ExpansionDraconicEvolution.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>8b024a31deb39959b912ab89eb1be208</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/generic/AlchemistsDungeon.tml</URL>
+                <Path>config/ruins_config/generic/AlchemistsDungeon.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>fb52383d848b4660c9dcaec797ffec1b</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/generic/AncientFountain.tml</URL>
+                <Path>config/ruins_config/generic/AncientFountain.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>91b793acb1a325cf50b188dd921634d8</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/generic/EmeraldOreOutcrop.tml</URL>
+                <Path>config/ruins_config/generic/EmeraldOreOutcrop.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>c2424f4b45efda217cf06a6c6fd03861</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/generic/RuinedSmallFountainDiagonal.tml</URL>
+                <Path>config/ruins_config/generic/RuinedSmallFountainDiagonal.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>d0d036349cd8d9ab7e7f770877a9122a</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/generic/VolcanicVent.tml</URL>
+                <Path>config/ruins_config/generic/VolcanicVent.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>a389b9d999bea9b0655976e91ac6af3a</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/jungle/JungleThroneWood.tml</URL>
+                <Path>config/ruins_config/jungle/JungleThroneWood.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>fc9e1a3c0dba862fba8f7d58efe70163</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/ocean/shipwreck.tml</URL>
+                <Path>config/ruins_config/ocean/shipwreck.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>5d80fd53a461209fee7311dc352e4f34</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/ocean/SunkenShip-v2.tml</URL>
+                <Path>config/ruins_config/ocean/SunkenShip-v2.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>663c31dd67e01d1c4a933447c5f4323d</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/ocean/SunkenShip-v3.tml</URL>
+                <Path>config/ruins_config/ocean/SunkenShip-v3.tml</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>786b3895f396a4c546899c66cbea5c1c</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/optional/optional.txt</URL>
+                <Path>config/ruins_config/optional/optional.txt</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>79b1a248718e4fcd2ee16566edf5daea</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="DummyCoreUnofficial-2.4.112.5" id="DummyCoreUnofficial" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/DummyCoreUnofficial-2.4.112.5.jar</URL>
 			<Size>329326</Size>
@@ -15022,83 +15238,69 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>BordListian</authors>
 			</Meta>
 		</Module>
-		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/DynamicSurroundings-1.12.2-3.5.4.1BETA.jar</URL>
-			<Size>14784441</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>585fdfc6f9c53ec5442d4f5b98fadc8c</MD5>
-			<Meta>
-				<credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
-				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
-				<version>1.12.2-3.5.4.1BETA</version>
-				<url>https://dynamicsurroundings.readthedocs.io</url>
-				<authors>OreCruncher, Abastro</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dsurround/dsurround.cfg</URL>
-				<Path>config/dsurround/dsurround.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c2c751cdfb2d9056a1184a8705fa4453</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights.cfg</URL>
-				<Path>config/dynamiclights.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5c83c759a05f6d405c4a1dbc1e872370</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_dropitems.cfg</URL>
-				<Path>config/dynamiclights_dropitems.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9577348b34162108f1579d3a4a4f5a17</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_entityclasses.cfg</URL>
-				<Path>config/dynamiclights_entityclasses.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>97b3b61c736522bd7c5affa7d5a021e5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_mobequipment.cfg</URL>
-				<Path>config/dynamiclights_mobequipment.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1e14666dc79b31f1a2d6d2ec59b80ced</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_onfire.cfg</URL>
-				<Path>config/dynamiclights_onfire.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b69a460183143964b33f776c5b7255cf</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_otherplayers.cfg</URL>
-				<Path>config/dynamiclights_otherplayers.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>da60558e8088baad31a6feb425be4a40</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_theplayer.cfg</URL>
-				<Path>config/dynamiclights_theplayer.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b6f796a3b824e00b0bc4903e43afd54e</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="DynamicSurroundings-core-1.12.2-3.5.4.1BETA" id="DynamicSurroundings-core-..-...BETA" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.4.1BETA/DynamicSurroundings-core-1.12.2-3.5.4.1BETA.jar</URL>
-			<Size>18701</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>82b7c26229b0c50d0d4939e58134b84e</MD5>
-		</Module>
-		<Module name="DynamicSurroundings-core-1.12.2-3.5.4.1BETA.jar" id="DynamicSurroundings-core-..-...BETA.jar" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.4.1BETA/DynamicSurroundings-core-1.12.2-3.5.4.1BETA.jar.meta</URL>
-			<Size>1670</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>b78d709c0ae14b4cd2c278b41a4d063d</MD5>
-		</Module>
-		<Module name="Earthworks" id="earthworks" depends="" side="BOTH">
+        <Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/DynamicSurroundings-1.12.2-3.4.10.6.jar</URL>
+            <Size>22504474</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>31446cb1849ae51004e824802938dd66</MD5>
+            <Meta>
+                <credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
+                <description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
+                <version>1.12.2-3.4.10.6</version>
+                <url>https://github.com/OreCruncher/DynamicSurroundings/wiki</url>
+                <authors>OreCruncher, Abastro</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dsurround/dsurround.cfg</URL>
+                <Path>config/dsurround/dsurround.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>c2c751cdfb2d9056a1184a8705fa4453</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights.cfg</URL>
+                <Path>config/dynamiclights.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>5c83c759a05f6d405c4a1dbc1e872370</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_dropitems.cfg</URL>
+                <Path>config/dynamiclights_dropitems.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>9577348b34162108f1579d3a4a4f5a17</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_entityclasses.cfg</URL>
+                <Path>config/dynamiclights_entityclasses.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>97b3b61c736522bd7c5affa7d5a021e5</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_mobequipment.cfg</URL>
+                <Path>config/dynamiclights_mobequipment.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>1e14666dc79b31f1a2d6d2ec59b80ced</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_onfire.cfg</URL>
+                <Path>config/dynamiclights_onfire.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>b69a460183143964b33f776c5b7255cf</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_otherplayers.cfg</URL>
+                <Path>config/dynamiclights_otherplayers.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>da60558e8088baad31a6feb425be4a40</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/dynamiclights_theplayer.cfg</URL>
+                <Path>config/dynamiclights_theplayer.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>b6f796a3b824e00b0bc4903e43afd54e</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="Earthworks" id="earthworks" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Earthworks-1.12-1.3.6.jar</URL>
 			<Size>705301</Size>
 			<Required>true</Required>
@@ -17657,61 +17859,61 @@ Check out the config to change the decay rate!</description>
 				<MD5>0e020ea03016cdc700d15bacd656903e</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="ICBM-classic-1.12.2-3.0.0b29" id="ICBM-classic-..-..b" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/ICBM-classic-1.12.2-3.0.0b29.jar</URL>
-			<Size>6862073</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>2f4471f36e903451a31dc0c7fccf4fa1</MD5>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/battery.cfg</URL>
-				<Path>config/icbmclassic/battery.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>60842d668c63140fb73a7afb7be87c88</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/blast.cfg</URL>
-				<Path>config/icbmclassic/blast.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a03431de0b1d430e0edc1a84eb940585</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/debug.cfg</URL>
-				<Path>config/icbmclassic/debug.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6140554b1b5ad1584c215e2ca748a0e0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/emp.cfg</URL>
-				<Path>config/icbmclassic/emp.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a5380425eaf0ec7e9528851df06f2875</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/item.cfg</URL>
-				<Path>config/icbmclassic/item.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>cecb21aff7fdf21d3df8ee6ff2c84b8d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/launcher.cfg</URL>
-				<Path>config/icbmclassic/launcher.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d209a231f0aadfd3dc14a62610dccc90</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/main.cfg</URL>
-				<Path>config/icbmclassic/main.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6404dd08277b04452245e374d1a915ed</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/missile.cfg</URL>
-				<Path>config/icbmclassic/missile.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ec2c96bc65d7a90b94940361dfd6a245</MD5>
-			</ConfigFile>
-		</Module>
+        <Module name="ICBM-classic-1.12.2-3.3.0b54" id="ICBM-classic-..-..b" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/ICBM-classic-1.12.2-3.3.0b54.jar</URL>
+            <Size>6930295</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>b70461a5314bf7b9fa76a193454d18b5</MD5>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/battery.cfg</URL>
+                <Path>config/icbmclassic/battery.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>60842d668c63140fb73a7afb7be87c88</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/blast.cfg</URL>
+                <Path>config/icbmclassic/blast.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>a03431de0b1d430e0edc1a84eb940585</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/debug.cfg</URL>
+                <Path>config/icbmclassic/debug.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>6140554b1b5ad1584c215e2ca748a0e0</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/emp.cfg</URL>
+                <Path>config/icbmclassic/emp.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>a5380425eaf0ec7e9528851df06f2875</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/item.cfg</URL>
+                <Path>config/icbmclassic/item.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>cecb21aff7fdf21d3df8ee6ff2c84b8d</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/launcher.cfg</URL>
+                <Path>config/icbmclassic/launcher.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>d209a231f0aadfd3dc14a62610dccc90</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/main.cfg</URL>
+                <Path>config/icbmclassic/main.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>6404dd08277b04452245e374d1a915ed</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/icbmclassic/missile.cfg</URL>
+                <Path>config/icbmclassic/missile.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>ec2c96bc65d7a90b94940361dfd6a245</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="iChunUtil" id="ichunutil" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/iChunUtil-1.12.2-7.1.4.jar</URL>
 			<Size>550812</Size>
@@ -18532,6 +18734,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>9b736bc47b1c8afeb84ab96101f8acd3</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="Just a Few Fish" id="jaff" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/JustAFewFish-1.7_for_1.12.jar</URL>
+            <Size>238863</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>7db981b35345514431b01025e4ab6cae</MD5>
+            <Meta>
+                <credits>Made by Tmtravlr</credits>
+                <description>Adds a few fish, to go along with the vanilla items!</description>
+                <version>1.7_for_1.12</version>
+                <url></url>
+                <authors>Tmtravlr</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/jaff.cfg</URL>
+                <Path>config/jaff.cfg</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>65dead82191f3aebcb5f391a1a3498b8</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="Just Enough Dimensions" id="justenoughdimensions" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/justenoughdimensions-1.12.2-1.6.0-dev.20190102.023335.jar</URL>
 			<Size>234184</Size>
@@ -32218,6 +32440,20 @@ Lilylicious - Assistant developer.</credits>
 				<MD5>f7501d10d21f8455543cc21353d7d036</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="Refined Avaritia" id="refined_avaritia" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/refined_avaritia-1.12.2-2.4.jar</URL>
+            <Size>69475</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>2f6df272519c076307945e86fb643d78</MD5>
+            <Meta>
+                <credits>The Avaritia and Refined Storage devs for the amazing mods.</credits>
+                <description>A mod that adds Avaritia support to Refined Storage</description>
+                <version>1.12.2-2.4</version>
+                <url></url>
+                <authors>ExpensiveKoala, MechWarrior99</authors>
+            </Meta>
+        </Module>
 		<Module name="Refined Storage" id="refinedstorage" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/refinedstorage-1.6.12.jar</URL>
 			<Size>1896159</Size>
@@ -32972,6 +33208,26 @@ Lilylicious - Assistant developer.</credits>
 				<MD5>16ec370911da625a2a23f43f3f3add8a</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
+            <URL priority="0">http://mwkinz.com/modpack/package/mods/stg-1.12.2-1.2.3.jar</URL>
+            <Size>24024</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>b836648006f1451c65d33f7132eec770</MD5>
+            <Meta>
+                <credits>Direwolf20</credits>
+                <description>Don&apos;t let the grass be between you and your prey!</description>
+                <version>1.12.2-1.2.3</version>
+                <url></url>
+                <authors>Exidex</authors>
+            </Meta>
+            <ConfigFile>
+                <URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/chestgen_locations_1.11.txt</URL>
+                <Path>config/ruins_config/chestgen_locations_1.11.txt</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>6d7adec3460ddae1a9490378b709ad1f</MD5>
+            </ConfigFile>
+        </Module>
 		<Module name="Sync" id="sync" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Sync-1.12.2-7.0.2.jar</URL>
 			<Size>240155</Size>
@@ -33789,32 +34045,6 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 				<MD5>967e0667346e8c78f9ab49366b80a100</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Tinkers&apos; Compendium" id="tinkerscompendium" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/tinkersdefense-1.4.2.21.jar</URL>
-			<Size>2305270</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>1fa2cb30b185cc54be23862699d2bd6c</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A massive expansion for TConstruct</description>
-				<version>1.4.2.21</version>
-				<url></url>
-				<authors>Lance5057</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/ruins_config/generic/PumpkinField.tml</URL>
-				<Path>config/ruins_config/generic/PumpkinField.tml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5b6cdc4ed47c945120b4e32a46dab527</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/tinkerscompendium.cfg</URL>
-				<Path>config/tinkerscompendium.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7776272cffa4b5dd8ded77ebbf917718</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Tinkers&apos; Complement" id="tcomplement" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/TinkersComplement-1.12.2-0.3.0.jar</URL>
 			<Size>225726</Size>
@@ -34005,896 +34235,6 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 				<Path>config/traverse/traverse.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a2334c00310f7fc904e56f9125af7cc8</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Triumph" id="triumph" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/Triumph-1.12.2-3.9.0.jar</URL>
-			<Size>299081</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9dd76e000220d2d0107da9f28f51e39b</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A mod for adding custom advancements</description>
-				<version>3.9.0</version>
-				<url>http://bloodnbonesgaming.com/</url>
-				<authors>Blargerist</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/botania_tweaks/flower_generated_mana.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/botania_tweaks/flower_generated_mana.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>be4f3d8b4825df93f3d2d8e55955e0fd</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/botania_tweaks/total_generated_mana.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/botania_tweaks/total_generated_mana.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9021be8354a7d75bac2f5163aeaa3106</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/bred_animals.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/bred_animals.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d2da83858814753406bf1efbe1a59060</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/brewed_potion.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/brewed_potion.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1a019644ff6276f953fcc6e697fa46f6</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/changed_dimension.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/changed_dimension.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b3fcccaf121f2d08822c28a14a0275c8</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/construct_beacon.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/construct_beacon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5ecd9372123df9693e7b20a4f49d004c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/consume_item.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/consume_item.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>83cdeee8b7fcdf474e68ba864194d840</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/cured_zombie_villager.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/cured_zombie_villager.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b70eedb8c62b49ea108aed7c04196839</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/effects_changed.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/effects_changed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e1d8d7ba4a423e5dcab090f0d90961fe</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/enchanted_item.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/enchanted_item.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fa935b0c764987ed17a0e7a90457691c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/enter_block.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/enter_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>27cd021b7ea05f1eef87a197137f2f25</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/entity_hurt_player.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/entity_hurt_player.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4ef4e8f4b39338206da057fbffad42c0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/entity_killed_player.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/entity_killed_player.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e526265dd53d80d8cc50fe52c261f909</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/impossible.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/impossible.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>491ba5365290beb34679305fc57d1376</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/inventory_changed.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/inventory_changed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f7fc34b1207e0884e3d61389d31345d8</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/item_durability_changed.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/item_durability_changed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>54574ab2ef2d7ea8dc053cf8291aa3d9</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/levitation.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/levitation.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>45fad80f224240dd6681e60991d0e04f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/location.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/location.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f5787c85017a9f27a75138174ecb8964</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/nether_travel.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/nether_travel.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5b875d69cd13df48524714a98d41c203</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/placed_block.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/placed_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>06744bdc5027c315c6d2e7fcd960d203</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/player_hurt_entity.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/player_hurt_entity.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>201e14f0a3e5a0951852b134b0bff749</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/player_killed_entity.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/player_killed_entity.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8958aeeb4edda0f25941da9523e1b639</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/recipe_unlocked.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/recipe_unlocked.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>be18f1ce86c3d1dc56e26825ddb94422</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/slept_in_bed.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/slept_in_bed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>818cdfb58062d301d46c48de51e44dbc</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/summoned_entity.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/summoned_entity.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1721d60054888fff73fe275f5bb77899</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/tame_animal.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/tame_animal.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>48a08a4b5717ea3e24a0ba995c8b8b11</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/used_totem.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/used_totem.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f30b6716a0f7b7a693ebf3343f069ff1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/minecraft/villager_trade.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/minecraft/villager_trade.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e2973a94a39879a99131447508248c4b</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/completed_advancement.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/completed_advancement.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bd2b1efda57e3ade355e70e336d41dd7</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/gamestage.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/gamestage.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d93f85622e95c2987a8b4f9a682d9566</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/left_click_block.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/left_click_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7b08c084a0b1ee682ba83bebde619d48</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/player_break_block.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/player_break_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f88c7d1d3f479eea8759d236243cca6d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/player_crafted_item.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/player_crafted_item.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8f2bc77cb56abe882bb0f13fa76a086f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/player_destroy_block.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/player_destroy_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>04568a3ca7e6a3bfa263504be173ac10</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/player_harvest_block.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/player_harvest_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>61297b170deefb008286b8cfdd70a22f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/criteria/triggers/triumph/right_click_block.txt</URL>
-				<Path>config/triumph/documentation/criteria/triggers/triumph/right_click_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e7ea0c2bfa5cd3fa11845f92d8d208ba</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/DamageData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/DamageData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5d08a5d3c0982a0c0340c247f7baff87</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/DamageSourceData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/DamageSourceData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e9683020ef39156b3722966c147f6ee0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/DimensionData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/DimensionData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4413cef21a445a4d62f89ef2ff554425</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/DistanceData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/DistanceData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c2afc1e3724b6bf8f1582eeadbc5fdca</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/EntityData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/EntityData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3c2a880dc74e6cba81a2c6c65e8af12e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/ItemBlockData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/ItemBlockData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a70f90b6173860d605e270587768dfab</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/LocationData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/LocationData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4b2b0299cf6f90304d2e8a40d69b8eeb</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/dataObjects/PotionEffectData.txt</URL>
-				<Path>config/triumph/documentation/dataObjects/PotionEffectData.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b284980a9c31533f958634a15cce6cb1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/script/ScriptAdvancement.txt</URL>
-				<Path>config/triumph/documentation/script/ScriptAdvancement.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1080ac0aada135f38018c775f3e63092</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/documentation/Triumph.txt</URL>
-				<Path>config/triumph/documentation/Triumph.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6f63472b040ca6e6a78398f7ae258407</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/functions/triumph/happy_birthday.txt</URL>
-				<Path>config/triumph/functions/triumph/happy_birthday.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5241aa829e3fad2389ff9760a71b64c0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/botania_tweaks/example_flower_generated_mana.txt</URL>
-				<Path>config/triumph/script/triumph/example/botania_tweaks/example_flower_generated_mana.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f5766926f7aea72a4e81078d8d89a212</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/botania_tweaks/example_total_generated_mana.txt</URL>
-				<Path>config/triumph/script/triumph/example/botania_tweaks/example_total_generated_mana.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a2d4a24cf9fe26d68c278668a996b1e5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_all_rewards.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_all_rewards.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>37232b92b2de5e6cfc954a8e76499691</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_better_advancement_colors.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_better_advancement_colors.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a9ef22b365878e9704c53dc8aaced0ab</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_break_block.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_break_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d5a15e92a7887fd7f01490eb3ce2691d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_bred_animals.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_bred_animals.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c34eea5d1b95383f7bf065ec29c2417c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_brewed_potion.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_brewed_potion.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b568f03c4189f37044074b74cc80f733</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_completed_advancement.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_completed_advancement.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>86ceeeb2118c122a612a2fff8f0ebba1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_construct_beacon.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_construct_beacon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4cb8d283950a81b179a4fd002c87e0d7</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_consume_item.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_consume_item.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>eb6b3cea0d982d13775cd34a4fd1e4d2</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_count.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_count.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6fc02e24ae82709b45024787f27e5d2a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_destroy_block.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_destroy_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>168f476b1b5a0a89601e50473840c481</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_enchanted_item.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_enchanted_item.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c41ab4bafe8577a347e7e6d1c39c0311</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_enter_biome.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_enter_biome.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>91812e46a8f2e123063249e88d7727c4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_enter_block.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_enter_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f8ec3e9c472f7cb4d716cef5e0300dbe</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_enter_dimension.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_enter_dimension.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>95f22998d2d82872093f27f56b8599ef</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_harvest_block.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_harvest_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>75ac88279cb4329bd4889adf3a34365b</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_hurt_entity.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_hurt_entity.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e375246e089939b23f49b1610ee27cc7</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_impossible.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_impossible.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bdce4435d786cbf1f9187651ba2caf80</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_inventory_changed.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_inventory_changed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9f60a966a8c6ee92a9cc934618621928</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_item_crafted.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_item_crafted.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>31a30c99ad443f53a8d9ee312c76c51f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_killed_by_entity.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_killed_by_entity.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>11a8cf4bcd63d64d72b8817cd1408f37</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_killed_entity.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_killed_entity.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c48d7e34a0b4b86229f4001634834ed5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_left_click_block.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_left_click_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c7214536a955e5e5689982ac51fa17fa</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_location_dimID.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_location_dimID.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>aa1ec84ddbbdcb595dddefe8833cab7a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_location_worldtype.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_location_worldtype.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>83f8dd53cc7781ab8e8b06fad1011db2</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_placed_block.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_placed_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>2bd9d4bde92386fdf8062d4b2de94328</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_recipe_unlocked.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_recipe_unlocked.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9b756ac57d1877bcce22b2349f98e366</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_repeatable.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_repeatable.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d7d19e81eeedd84f81801252defd0adc</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_right_click_block.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_right_click_block.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>55f57030b5b18e1f26b9ac224df48540</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_slept_in_bed.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_slept_in_bed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>17fd4b8d76f4f4ee9605a12ad4e29203</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_tame_animal.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_tame_animal.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b8e7d4914d77c1cd91414796e2906257</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/example_villager_trade.txt</URL>
-				<Path>config/triumph/script/triumph/example/example_villager_trade.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>dcbdead1fdd5ca6229f6dd9f59b0eb2e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/example/root.txt</URL>
-				<Path>config/triumph/script/triumph/example/root.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e2f315a010d931fb30fff44f0ab34f9b</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/adventuring_time.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/adventuring_time.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f223a9cbc755d147fb1e41f30c5491cc</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/kill_all_mobs.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/kill_all_mobs.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>eecc4f5e4e7eee034625102b0ec5afa6</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/kill_a_mob.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/kill_a_mob.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6d680c53ad03a9a41f175794974fc805</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/root.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/root.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a1e5adb4908fbf7d12b2e300bfb99484</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/shoot_arrow.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/shoot_arrow.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f134c05e923a6293891626b283864848</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/sleep_in_bed.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/sleep_in_bed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fbffa548336676074bf5a8f93c22d67f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/sniper_duel.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/sniper_duel.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ba10bfa5dcbec570af06b728b1821df3</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/summon_iron_golem.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/summon_iron_golem.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5f6c71f2a5a162fd0216262aa93da3a1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/totem_of_undying.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/totem_of_undying.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a93e86a28e3ef522e6dda523ca57f9c4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/adventure/trade.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/adventure/trade.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4a2638b8b3c1cf15c858fa00646e2655</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/dragon_breath.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/dragon_breath.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d8050e339a9fd1866bb18f7d2b330625</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/dragon_egg.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/dragon_egg.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f842e860be0fdbee3ca2be76b0289c3b</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/elytra.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/elytra.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f5aa18dee79d96fb576ccab987a91543</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/enter_end_gateway.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/enter_end_gateway.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5bd32c0c28ad72d91cb68631c073197d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/find_end_city.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/find_end_city.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a5c5341cd369354a785782039135fca1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/kill_dragon.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/kill_dragon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>de17dd7481dbe2cb69d4655a3ba89758</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/levitate.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/levitate.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ab6b6c6f3641fa872db6b0aa07afdd73</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/respawn_dragon.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/respawn_dragon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3f1e488e4e56d7c465f8b0de7ec5f332</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/end/root.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/end/root.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>624ce776e00a191093b530d3f448b895</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/husbandry/balanced_diet.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/husbandry/balanced_diet.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>014026372be7be659452b8a10a31fc71</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/husbandry/break_diamond_hoe.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/husbandry/break_diamond_hoe.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>181db295a5534d9cd6a68ea702f64230</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/husbandry/bred_all_animals.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/husbandry/bred_all_animals.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>865aa0a7af9288483782dddd2ad60fa3</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/husbandry/breed_an_animal.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/husbandry/breed_an_animal.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>cdef97a8d474aa7f63b9fa9fa9c814ac</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/husbandry/plant_seed.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/husbandry/plant_seed.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>550f21e3e19e21409ccd6c8a23491188</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/husbandry/root.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/husbandry/root.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a971365757b0ea859b1b00e62ece0eac</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/husbandry/tame_an_animal.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/husbandry/tame_an_animal.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>279355a52da9f2a500e2e56786f68f92</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/all_effects.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/all_effects.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>30ac05ff03c965ac7676f2fd130297f0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/all_potions.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/all_potions.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>15d12a7c4f11ea7a7b2b1168873188c0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/brew_potion.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/brew_potion.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>cfd7d0f4665c4a2b4aec859253f833df</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/create_beacon.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/create_beacon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>16776f80d1c17214e4ef7dc5b242b2ab</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/create_full_beacon.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/create_full_beacon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>86528d15a489e805bd467c94463fbaf7</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/fast_travel.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/fast_travel.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5e3ef57a7a66722d7557723ea9ed1430</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/find_fortress.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/find_fortress.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>00a074271ec2134cbb19f4bb693d5d03</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/get_wither_skull.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/get_wither_skull.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>04a77120997379d8b22280b29a25ae34</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/obtain_blaze_rod.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/obtain_blaze_rod.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9e250c51c2134a0e784309147cd7de8b</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/return_to_sender.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/return_to_sender.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6684dae82af0322f24785bd24fba5f5a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/root.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/root.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9bfd5a0a314ccf733b4bb632bb6bf574</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/summon_wither.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/summon_wither.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fa8ae3507cd4bb4b06731f9ecf72d7ca</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/nether/uneasy_alliance.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/nether/uneasy_alliance.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>668de3556f087730158f257a04b8ca36</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/blaze_powder.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/blaze_powder.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1680128cb1986ba7af9fb7e3ed95d62b</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/brewing_stand.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/brewing_stand.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>98ccafb1943b7b3b3736cca83f4027fc</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/cauldron.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/cauldron.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>352362784f38a2b7dfee2741331e24f4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/fermented_spider_eye.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/fermented_spider_eye.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e7e492c3cb6e15915efd69799c7defa1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/glass_bottle.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/glass_bottle.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9bb5f5c42267cb60ad6ba7a6467c5a6f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/golden_carrot.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/golden_carrot.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e05df789366f3697fecc6f3bcaff63ef</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/magma_cream.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/magma_cream.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>440b0332859b8a356608f273437cab36</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/brewing/speckled_melon.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/brewing/speckled_melon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d5af59706a630d00f0f386f68c3a2e62</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/recipes/root.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/recipes/root.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3e7028cf032e3d8ba6f5041208256a65</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/cure_zombie_villager.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/cure_zombie_villager.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bfd56607f7611f6f5979919a3da2bf01</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/deflect_arrow.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/deflect_arrow.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8020e96512da2d9a8059432d7d8fb367</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/enchant_item.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/enchant_item.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>55edd09ec66a374315d8ee0b83332574</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/enter_the_end.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/enter_the_end.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ca08d62ca6b6f2173ec058e4ece70ca5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/enter_the_nether.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/enter_the_nether.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0facfb0a42e02dd36a9aabfa7eb14098</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/follow_ender_eye.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/follow_ender_eye.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5e28a6d6ea753899cbfbca82e4e7479e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/form_obsidian.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/form_obsidian.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>679f84ad720b6ebcd0355f0deb54083e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/iron_tools.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/iron_tools.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>95f07e07926b90fb656ecf4efcdb8b06</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/lava_bucket.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/lava_bucket.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9937633abff5045f2dd94aff5fa989df</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/mine_diamond.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/mine_diamond.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>53b2d6831e17f242708a4b8b8fe2bee1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/mine_stone.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/mine_stone.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9e14746286286acb7405de9c96ac0c44</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/obtain_armor.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/obtain_armor.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a1531791d375ad257fff841a3899d5d5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/root.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/root.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>38c364c244889db0a06938dac55efa4d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/shiny_gear.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/shiny_gear.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e4069cdfa7c144dd3152c4090bfef8df</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/smelt_iron.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/smelt_iron.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e06619a50c7b396feb3e9c23df0e33e7</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/script/triumph/vanilla/story/upgrade_tools.txt</URL>
-				<Path>config/triumph/script/triumph/vanilla/story/upgrade_tools.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9bb764539cb94110c095d43210f7aaee</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/triumph/Triumph.txt</URL>
-				<Path>config/triumph/Triumph.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5ef2776000c951df38bb4e3563dffa0c</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Ungrab Mouse Mod" id="ungrabmouse" depends="" side="BOTH">
