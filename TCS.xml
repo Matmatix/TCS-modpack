@@ -3644,30 +3644,18 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Better Questing" id="betterquesting" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/BetterQuesting-3.5.285.jar</URL>
-			<Size>1358592</Size>
+			<URL priority="0">mwkinz.com/mods/BetterQuesting-3.5.296.jar</URL>
+			<Size>1287025</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3a0e3f6a7fd582f81700ac50acd77142</MD5>
+			<MD5>bbfbe23949314a73e25891918d23158a</MD5>
 			<Meta>
 				<credits>Thank you Patreons for all your support &lt;3</credits>
 				<description>A new and improved questing mod for Minecraft pack creators</description>
-				<version>3.5.285</version>
+				<version>3.5.296</version>
 				<url></url>
 				<authors>Funwayguy</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/betterquesting/questbook.cfg</URL>
-				<Path>config/betterquesting/questbook.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c1570c8cd795bb7a9752f77605463a35</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/betterquesting.cfg</URL>
-				<Path>config/betterquesting.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>06acb78a6463115338c8abae26615fff</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="Better Questing Quest Book" id="questbook" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/questbook-3.1.EXP_NET2-1.12.jar</URL>
