@@ -3696,6 +3696,19 @@
 				<MD5>9fafc11a63bc72f6d2cfa5a3e3ebd02b</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Bewitchment" id="bewitchment" depends="" side="BOTH">
+			<URL priority="0">mwkinz.com/mods/Bewitchment-1.12.2-0.0.19.47-indev.jar</URL>
+			<Size>5395385</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d5f3fa50b85ba55cd4e5c339e2b5dfb4</MD5>
+			<Meta>
+				<credits>To all contributors of the mod. Credit to Monospace for Nethersteel Textures. Credit to Dobroide and NewAgeSoup for some of the sounds.</credits>
+				<description>A Witchery inspired mod</description>
+				<version>1.12.2-0.0.19.47-indev</version>
+				<url>https://minecraft.curseforge.com/projects/bewitchment</url>
+				<authors>Zabi94, Sunconure11, Ingoleth, and a whole lot of awesome people from our discord server!, And our awesome patrons!</authors>
+			</Meta>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
 			<Size>5122856</Size>
