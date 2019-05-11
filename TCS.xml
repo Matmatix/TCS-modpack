@@ -3010,32 +3010,6 @@
 				<MD5>8704e1f3c33e0c91ac0a132067e06417</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Angel of Vengeance" id="aov" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/AoV-1.12-0.9.4.jar</URL>
-			<Size>3556670</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>e9281fa75bae6ac2c304b0eec4d88501</MD5>
-			<Meta>
-				<credits>Tamaized</credits>
-				<description>A Magic Based Minecraft Mod about being a Healer</description>
-				<version>0.9.4</version>
-				<url>https://minecraft.curseforge.com/projects/angel-of-vengeance</url>
-				<authors>Tamaized</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/aov.cfg</URL>
-				<Path>config/aov.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>de7960b2659cc37a6589677f462694ee</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/of.cfg</URL>
-				<Path>config/of.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>69c9b97f5fc7401c4bc0d37fe852b38c</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="AngelRing 2 Bauble" id="flyringbaublemod" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar</URL>
 			<Size>44041</Size>
@@ -3056,26 +3030,6 @@
 				<MD5>1931c2ea9bb8929f111a1710bcafb07d</MD5>
 			</ConfigFile>
 		</Module>
-        <Module name="Animania" id="animania" depends="" side="BOTH">
-            <URL priority="0">http://mwkinz.com/modpack/package/mods/animania-1.12.2-1.6.2.jar</URL>
-            <Size>8953456</Size>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>b36e2692dded419cc2bd2612382ed1d7</MD5>
-            <Meta>
-                <credits>Game concept, creative direction, models, textures, animation, sound design, and development by RazzleberryFox, Purplicious_Cow, cy4n, Tschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien</credits>
-                <description>Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops.</description>
-                <version>1.6.2</version>
-                <url></url>
-                <authors>RazzleberryFox, Purplicious_Cow, cy4n, Tschipp, ZeAmateis, Timmypote, Raptorfarian, vroulas, and TheJurassicAlien</authors>
-            </Meta>
-            <ConfigFile>
-                <URL priority="0">http://mwkinz.com/modpack/package/config/animania.cfg</URL>
-                <Path>config/animania.cfg</Path>
-                <NoOverwrite>false</NoOverwrite>
-                <MD5>820f7fea507f800a9c8d2ddeff797fc6</MD5>
-            </ConfigFile>
-        </Module>
 		<Module name="Animus" id="animus" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Animus-2.0.4.jar</URL>
 			<Size>336105</Size>
@@ -3610,26 +3564,6 @@
 				<url>bdew.net/mods/</url>
 				<authors>bdew</authors>
 			</Meta>
-		</Module>
-		<Module name="Bedrock-B-Gone" id="bedrockbgone" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/BedrockBGone-1.12.2-5.0-b8.jar</URL>
-			<Size>33190</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a9b7582ec74315fbb3fa25593abcd174</MD5>
-			<Meta>
-				<credits>My lazyness</credits>
-				<description>Make the bedrock layer flat</description>
-				<version>1.12.2-5.0-b8</version>
-				<url></url>
-				<authors>Karjah</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/bedrockbgone.cfg</URL>
-				<Path>config/bedrockbgone.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>480c14c798097daafa5387195f3328f8</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="Bee Better at Bees" id="beebetteratbees" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/beebetteratbees-1.12.2-2.0.3.jar</URL>
@@ -17385,200 +17319,6 @@ Check out the config to change the decay rate!</description>
 				<MD5>7d9ee26415a48767ec3fbfcfef6f1bb4</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="GeneralLaymansAestheticSpyingScreen" id="generallaymansaestheticspyingscreen" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/GeneralLaymansAestheticSpyingScreen-1.12.2-7.0.0.jar</URL>
-			<Size>159791</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>024e218a06c252eeb8811252cc7861d3</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Also known as GLASS</description>
-				<version>1.12.2-7.0.0</version>
-				<url>http://ichun.me/mods/general-laymans-aesthetic-spying-screen/</url>
-				<authors>iChun</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/boreal_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/boreal_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0834db4d543433eb19056c998ed0b625</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/brushland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/brushland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d8e1fb5d2fd2a71ab03fb9ae9c03da82</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/chaparral.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/chaparral.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>be08a520a98ff259041a0e5579ab23ec</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/cherry_blossom_grove.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/cherry_blossom_grove.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e57b2d3d9ae8925f873211ba0f83f65d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/cold_desert.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/cold_desert.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9f9f866168a9457453d8da11b57478b2</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/coniferous_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/coniferous_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e6bb207e03bfa95d3717cd089077b713</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/coral_reef.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/coral_reef.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c448eb1007f19c429c688d20f0bdefee</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/corrupted_sands.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/corrupted_sands.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>590e629bb2c76fc7fc7d7da910032c9e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/eucalyptus_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/eucalyptus_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4c04d78873a9f5005a502f6e4eab2af4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/fungi_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/fungi_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>22784a10b2b4fe38261047bda801aa7e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/glacier.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/glacier.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>88b4740a1d3ba05340a0bc2e8f5935ff</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/grassland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/grassland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8015746f5d7007682b10157335d940d1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/gravel_beach.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/gravel_beach.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5053bf7c7f866368a85e589903969e93</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/lush_desert.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/lush_desert.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6b3c3e1914b64d7ff63d0ba5b470b6d3</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/mystic_grove.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/mystic_grove.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9b16e85a4a5845f574ff4c58c3dc89bb</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/phantasmagoric_inferno.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/phantasmagoric_inferno.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e28a0b4414e2ffb3824740ce24922d35</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/redwood_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/redwood_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a2e459511a6a66fd41803e7761bc9d47</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/sacred_springs.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/sacred_springs.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0d4dfa6cb7d36ed881c6a02127cca84a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/shield.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/shield.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>12394e555ad90aa24675be95dc4e6683</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/shrubland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/shrubland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b4a970b0df09177c823aa8ee9fb83457</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_coniferous_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_coniferous_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>05a54115ac28a6909f6e0a56226cb94d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>dacf8f1d066e44513d5764f3c85fa09e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/tropical_rainforest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/tropical_rainforest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fa3e7996fe4ad0253434bcbc225dfb41</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/undergarden.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/undergarden.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>16ce2fd561c7a133e1d8873b6c7aca4d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/visceral_heap.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/visceral_heap.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9ad6a0aa92a258007ae4c50500a02111</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/wasteland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/wasteland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>87a9a201cc1e4fc76501f3826fd7494d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/wetland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/wetland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e6299e2056e4a5cc4d2a8b1f7d0c7e6a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/white_beach.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/white_beach.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d4e25af1e590a3c3300e77e36b11c0ec</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/xeric_shrubland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/xeric_shrubland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ab607aa5f764d67d22226c8163b5ffbd</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/vanilla/extreme_hills_with_trees.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/vanilla/extreme_hills_with_trees.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>2c2765617d5a2b1320787c276f538c01</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Genetics Reborn" id="geneticsreborn" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/geneticsreborn-1.12-1.09.jar</URL>
 			<Size>257183</Size>
@@ -18714,46 +18454,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>98db3dc54ead974865be0e33f17632db</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="JurassiCraft" id="jurassicraft" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/JurassiCraft-1.12.2-2.1.20.jar</URL>
-			<Size>22488627</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c4e2520262c0371ce7b2c72d83ec3540</MD5>
-			<Meta>
-				<credits></credits>
-				<description>JurassiCraft is a mod based on Jurassic Park and Jurassic World franchises, but is not only limited to it. This mod allows you to create dinosaurs by extracting DNA from fossils and amber, and putting that through a process until you get a baby dinosaur! Not only does this mod add dinosaurs, it also adds many prehistoric plants, decorations, vehicles and much more!</description>
-				<version>2.1.20</version>
-				<url>http://minecraft.curseforge.com/projects/jurassicraft-2-0</url>
-				<authors>JurassiCraft Team</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/jurassicraft.cfg</URL>
-				<Path>config/jurassicraft.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9b736bc47b1c8afeb84ab96101f8acd3</MD5>
-			</ConfigFile>
-		</Module>
-        <Module name="Just a Few Fish" id="jaff" depends="" side="BOTH">
-            <URL priority="0">http://mwkinz.com/modpack/package/mods/JustAFewFish-1.7_for_1.12.jar</URL>
-            <Size>238863</Size>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>7db981b35345514431b01025e4ab6cae</MD5>
-            <Meta>
-                <credits>Made by Tmtravlr</credits>
-                <description>Adds a few fish, to go along with the vanilla items!</description>
-                <version>1.7_for_1.12</version>
-                <url></url>
-                <authors>Tmtravlr</authors>
-            </Meta>
-            <ConfigFile>
-                <URL priority="0">http://mwkinz.com/modpack/package/config/jaff.cfg</URL>
-                <Path>config/jaff.cfg</Path>
-                <NoOverwrite>false</NoOverwrite>
-                <MD5>65dead82191f3aebcb5f391a1a3498b8</MD5>
-            </ConfigFile>
-        </Module>
 		<Module name="Just Enough Dimensions" id="justenoughdimensions" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/justenoughdimensions-1.12.2-1.6.0-dev.20190102.023335.jar</URL>
 			<Size>234184</Size>
@@ -19316,32 +19016,6 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 			<ModType>Regular</ModType>
 			<MD5>6bd49839544ea466ec3f6280db263867</MD5>
 		</Module>
-		<Module name="Loot Bags" id="lootbags" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/LootBags-1.12.2-2.5.7.jar</URL>
-			<Size>268517</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>7a77afe525208299dba777a528ce8229</MD5>
-			<Meta>
-				<credits>Malorolam</credits>
-				<description>Add loot pouches to entity drops</description>
-				<version>2.5.7</version>
-				<url></url>
-				<authors>Malorolam</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/lootbags.cfg</URL>
-				<Path>config/lootbags.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>49e188319227d13519d88718bcad2451</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/Lootbags_BagConfig.cfg</URL>
-				<Path>config/Lootbags_BagConfig.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>569b573412179b0e198c550422163fb1</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="LunatriusCore" id="lunatriuscore" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar</URL>
 			<Size>76753</Size>
@@ -19360,98 +19034,6 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<Path>config/lunatriuscore.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f12267ff6480bae77adc78bc1020532e</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="MachineMuse&apos;s Modular Powersuits" id="powersuits" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/ModularPowersuits-1.12.2-0.7.0.026.jar</URL>
-			<Size>2151686</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>fe85affacf3cbdfff0e05bd48d2a4473</MD5>
-			<Meta>
-				<credits>Code by MachineMuse, Icons by WaterCandle, Modeling by SebK</credits>
-				<description>A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses EU (IndustrialCraft 2) or RF (Thermal Expansion 4).</description>
-				<version>1.12.2-0.7.0.026</version>
-				<url>http://machinemuse.net/</url>
-				<authors>MachineMuse</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_feet/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_feet/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>86b8086ac8c7b409e0f6248512de91e3</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_feet/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_feet/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6d19b03353e4682a724c3f254c26cb76</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_head/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_head/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5dda631c69a729e18cd00a96a574a406</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_head/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_head/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d2c7f52d5ea5d4585ee319d26061a31f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_legs/Citizen%20Joe%20Armor%20Skin.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_legs/Citizen Joe Armor Skin.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>72156f5b2ba860e0918bcc599591a7f5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_legs/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_legs/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e6ac0e43686adae6d2e54c38b732b4f5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_legs/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_legs/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a470d0b0f24d27dff823a153f6d85482</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_torso/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_torso/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>aafb174598c432601c58bcdb801a105e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_torso/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_torso/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b9882bf33ead931a641556d44aa0da4c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/power_fist/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/power_fist/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8c418ec58d92f2a85e4c42d2588f5542</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/missingConfigDoubles.txt</URL>
-				<Path>config/machinemuse/missingConfigDoubles.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>63b370cd7664c3ba7a3db8828152ab67</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/numina.cfg</URL>
-				<Path>config/machinemuse/numina.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c8acc83b7508a42d758d7e80dbaa82d8</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/powersuits.cfg</URL>
-				<Path>config/machinemuse/powersuits.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3b5481263c0ad6be8a53bcbe137f301a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Magic Bees" id="MagicBees" depends="" side="BOTH">
@@ -32152,26 +31734,6 @@ Lilylicious - Assistant developer.</credits>
 				<Path>config/railcraft/railcraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>038c6689d13916f76d378fc1da48a56d</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Random Loot Mod" id="randomloot" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/RandomLoot-1.4.1.jar</URL>
-			<Size>127114</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>65a0f089720104599a122a5696eeb95a</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A new way to get loot from enemies and dungeons.</description>
-				<version>1.3</version>
-				<url></url>
-				<authors>milomaz1</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/randomloot/randomloot.cfg</URL>
-				<Path>config/randomloot/randomloot.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0593f831f5f15dd15588b69f929c067e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Random Things" id="randomthings" depends="" side="BOTH">
