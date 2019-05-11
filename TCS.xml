@@ -339,23 +339,25 @@
 			<MD5>91f05bba8a633439a4518b57413ba835</MD5>
 			<Meta>
 				<credits>
-  Author:
-    - InfinityRaider
-  Code Help:
-    - Imasius
-    - RlonRyan
-  API:
-    - HenryLoenwind
-    - Textures:
-    - MechWarrior99
-    - SkullyGamingMC
-    - VapourDrive
-    - SkeletonPunk</credits>
+				  Author:
+				    - InfinityRaider
+				  Code Help:
+				    - Imasius
+				    - RlonRyan
+				  API:
+				    - HenryLoenwind
+				    - Textures:
+				    - MechWarrior99
+				    - SkullyGamingMC
+				    - VapourDrive
+				    - SkeletonPunk
+					</credits>
 				<description>Agricultural farming extended.</description>
 				<version>2.12.0-1.12.0-a6</version>
 				<url>http://minecraft.curseforge.com/mc-mods/225635-agricraft</url>
 				<authors>
-    - InfinityRaider</authors>
+    				- InfinityRaider
+				</authors>
 			</Meta>
 			<ConfigFile>
 				<URL priority="0">http://mwkinz.com/modpack/package/config/agricraft/config.cfg</URL>
@@ -13182,10 +13184,12 @@
 			<MD5>76a060f6604f9bb3f61a36a04472e3ac</MD5>
 			<Meta>
 				<credits>Created by Ollie Lansdell</credits>
-				<description>Whoever said Calculators were boring?! Awesome Calculators, crazy items, mind-blowing machines and hundreds of hidden recipes.
-Change the way you craft, change the way you play, change the way you think.
+				<description>
+					Whoever said Calculators were boring?! Awesome Calculators, crazy items, mind-blowing machines and hundreds of hidden recipes.
+					Change the way you craft, change the way you play, change the way you think.
 
-Thank you for trying Calculator!</description>
+					Thank you for trying Calculator!
+				</description>
 				<version>1.12.2-5.0.11-12</version>
 				<url></url>
 				<authors>Ollie Lansdell</authors>
@@ -13426,10 +13430,10 @@ Thank you for trying Calculator!</description>
 			<ModType>Regular</ModType>
 			<MD5>dbda5475859bcffc9f572c5a1506a1f4</MD5>
 			<Meta>
-				<credits>AUTOMATIC_MAIDEN for the original mod,
-asie for porting to 1.7.2,
-and Pokenfenn/Cricket for continuing it in 1.7.
-This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<credits>
+					AUTOMATIC_MAIDEN for the original mod, asie for porting to 1.7.2, and Pokenfenn/Cricket for continuing it in 1.7.
+					This mod uses textures from the Painterly Pack: http://painterlypack.net/.
+				</credits>
 				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
 				<version>MC1.12.2-0.2.1.35</version>
 				<url>https://minecraft.curseforge.com/projects/chisel</url>
@@ -16752,9 +16756,10 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<MD5>18096ffb7f58d94f8e5a7bf2ff160f0f</MD5>
 			<Meta>
 				<credits></credits>
-				<description>Increases leaf decay rates.
-
-Check out the config to change the decay rate!</description>
+				<description>
+					Increases leaf decay rates.
+					Check out the config to change the decay rate!
+				</description>
 				<version>v14</version>
 				<url>http://minecraft.curseforge.com/projects/fastleafdecay</url>
 				<authors>Olafski</authors>
@@ -18301,8 +18306,10 @@ Check out the config to change the decay rate!</description>
 			<MD5>b1daa51ceb05fc7493ad03e57ba6927b</MD5>
 			<Meta>
 				<credits>By cpw, based on an original idea by Lishid</credits>
-				<description>New chests with larger sizes, with in-place upgrade items.
-The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
+				<description>
+					New chests with larger sizes, with in-place upgrade items.
+					The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest
+				</description>
 				<version>1.12.2-7.0.55.839</version>
 				<url>http://www.minecraftforum.net/topic/981855-</url>
 				<authors>cpw</authors>
@@ -18581,9 +18588,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>d59a5afae61495c66b47958b3fc2790c</MD5>
 			<Meta>
 				<credits></credits>
-				<description>Use the 1.13 chunk format in 1.12 to remove block, item, and biome ID limits.
+				<description>
+					Use the 1.13 chunk format in 1.12 to remove block, item, and biome ID limits.
 
-Thanks to zabi94 for helping getting potions and enchants extended.</description>
+					Thanks to zabi94 for helping getting potions and enchants extended.
+				</description>
 				<version>1.0.2-26</version>
 				<url>https://minecraft.curseforge.com/projects/jeid</url>
 				<authors>Runemoro, ZombieHDGaming</authors>
@@ -20447,9 +20456,10 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 			<MD5>f0c0370c27e6817acb65a9bb2c349fb2</MD5>
 			<Meta>
 				<credits>
-    Great thanks to:
-    Axoi, for the textures.
-    alucard87pl, for help with the wiki.</credits>
+    			Great thanks to:
+    			Axoi, for the textures.
+    			alucard87pl, for help with the wiki.
+				</credits>
 				<description>Addon for Open Computers which adds Augmented Reality features to Minecraft.</description>
 				<version>1.5.5</version>
 				<url>http://starchasers.pl/OpenGlasses/</url>
@@ -31183,13 +31193,15 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 			<ModType>Regular</ModType>
 			<MD5>34341d2c5205c9212fe20e9adaffe475</MD5>
 			<Meta>
-				<credits>Thanks to:
-x3n0ph0b3 - EE2 creator. Allowed use of EE2 assets.
-MidnightLightning - EE2 GUI Textures.
-Magic Banana - Original ProjectE textures.
-MaPePeR - Assistant developer.
-Williewillus - Assistant developer.
-Lilylicious - Assistant developer.</credits>
+				<credits>
+					Thanks to:
+						x3n0ph0b3 - EE2 creator. Allowed use of EE2 assets.
+						MidnightLightning - EE2 GUI Textures.
+						Magic Banana - Original ProjectE textures.
+						MaPePeR - Assistant developer.
+						Williewillus - Assistant developer.
+						Lilylicious - Assistant developer.
+					</credits>
 				<description>A complete rewrite of EE2 for modern Minecraft versions.</description>
 				<version>1.12-PE1.3.2h</version>
 				<url>http://minecraft.curseforge.com/mc-mods/226410-projecte</url>
@@ -33018,8 +33030,10 @@ Lilylicious - Assistant developer.</credits>
 			<ModType>Regular</ModType>
 			<MD5>462d9de075568c90da000b99591255c2</MD5>
 			<Meta>
-				<credits>Azanor for Thaumcraft
-sinkillerj, williewillus and Blubberbub for ProjectE</credits>
+				<credits>
+					Azanor for Thaumcraft
+					sinkillerj, williewillus and Blubberbub for ProjectE
+				</credits>
 				<description>ProjectE Thaumcraft bridge</description>
 				<version>1.12.2-1.0.5</version>
 				<url>https://minecraft.curseforge.com/projects/thaumic-equivalence</url>
@@ -33176,10 +33190,10 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 			<MD5>fd15376bd7340188b4f9b59789a3d240</MD5>
 			<Meta>
 				<credits>
- Â§nDevelopment Team:Â§r Angry Pixel
- Â§nContributors:Â§r https://github.com/Angry-Pixel/The-Betweenlands/graphs/contributors
- Â§nLocalization:Â§r DYColdWind (zh_CN), RisingInIris2017 (zh_CN), DL_Slime (zh_CN), LIL_SUZEE (ru_RU), TimeConqueror (ru_RU)
- Â§nSpecial Thanks:Â§r iLexiconn, OnyxDarkNight, SanAndreasP, Stealthgert, Dylan4Ever, Vahkiti, Aginsun, Cricket, FairWolf, Fish2, Hologuard, Hwd45, Iridium616, Ivorius, KazunariAkito, Laskeri, Quintinity, RandumbDude, Robonix, Sagotomi, Sartharis, Stealthgert, Vazkii, ZeuX, calebmanley, daveyx0, kiko0804, Timinations and probably many more!</credits>
+ 					Â§nDevelopment Team:Â§r Angry Pixel
+ 					Â§nContributors:Â§r https://github.com/Angry-Pixel/The-Betweenlands/graphs/contributors
+ 					Â§nLocalization:Â§r DYColdWind (zh_CN), RisingInIris2017 (zh_CN), DL_Slime (zh_CN), LIL_SUZEE (ru_RU), TimeConqueror (ru_RU)
+ 					Â§nSpecial Thanks:Â§r iLexiconn, OnyxDarkNight, SanAndreasP, Stealthgert, Dylan4Ever, Vahkiti, Aginsun, Cricket, FairWolf, Fish2, Hologuard, Hwd45, Iridium616, Ivorius, KazunariAkito, Laskeri, Quintinity, RandumbDude, Robonix, Sagotomi, Sartharis, Stealthgert, Vazkii, ZeuX, calebmanley, daveyx0, kiko0804, Timinations and probably many more!</credits>
 				<description>Introducing The Betweenlands... a dark and hostile environment. This large and expansive mod adds a whole new dimension to the game.</description>
 				<version>3.3.13</version>
 				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mods-discussion/1441135</url>
@@ -33827,10 +33841,12 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 			<ModType>Regular</ModType>
 			<MD5>b1ba004241d86a3e1280c8911c2b4ff2</MD5>
 			<Meta>
-				<credits>Mojang for creating Minecraft.
-Forge/FML for creating this awesome modding platform.
-The creators of every mod that UniDict interacts.
-All the users of UniDict.</credits>
+				<credits>
+					Mojang for creating Minecraft.
+					Forge/FML for creating this awesome modding platform.
+					The creators of every mod that UniDict interacts.
+					All the users of UniDict.
+				</credits>
 				<description>a mod about unifying all the things.</description>
 				<version>1.12.2-2.9.2</version>
 				<url>http://minecraft.curseforge.com/projects/unidict</url>
