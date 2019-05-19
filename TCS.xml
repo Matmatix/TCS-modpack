@@ -3646,15 +3646,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Better Questing" id="betterquesting" depends="" side="BOTH">
-			<URL priority="0">mwkinz.com/mods/BetterQuesting-3.5.296.jar</URL>
-			<Size>1287025</Size>
+			<URL priority="0">http://mwkinz.com/mods/BetterQuesting-3.5.285.jar</URL>
+			<Size>1358592</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bbfbe23949314a73e25891918d23158a</MD5>
+			<MD5>3a0e3f6a7fd582f81700ac50acd77142</MD5>
 			<Meta>
 				<credits>Thank you Patreons for all your support &lt;3</credits>
 				<description>A new and improved questing mod for Minecraft pack creators</description>
-				<version>3.5.296</version>
+				<version>3.5.285</version>
 				<url></url>
 				<authors>Funwayguy</authors>
 			</Meta>
@@ -30954,6 +30954,20 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>356a4d44eaa9f704bc0b5956b7e65aff</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
+			<URL priority="0">http://mwkinz.com/mods/Patchouli-1.0-19.jar</URL>
+			<Size>466011</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>05b4c57eb31770ca1c0da6b3a1ed69fa</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers</description>
+				<version>1.0-19</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
 		</Module>
 		<Module name="Placebo" id="placebo" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Placebo-1.12.2-1.5.0.jar</URL>
