@@ -3451,20 +3451,20 @@
 			<ModType>Regular</ModType>
 			<MD5>f0c255c69f8380562c99778b978e7e98</MD5>
 		</Module>
-        <Module name="Avaritia" id="Avaritia" depends="" side="BOTH">
-            <URL priority="0">http://mwkinz.com/modpack/package/mods/Avaritia-1.12.2-3.3.0.33-universal.jar</URL>
-            <Size>972581</Size>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>8eedd678495a7ce0958c026a7873fc62</MD5>
-            <Meta>
-                <credits>Vazkii, Greg, brandon3055, vswe, Algorithm</credits>
-                <description>A mod to see how hard people are willing to grind.</description>
-                <version>3.3.0.33</version>
-                <url></url>
-                <authors>SpitefulFox, TTFTCUTS</authors>
-            </Meta>
-        </Module>
+    <Module name="Avaritia" id="Avaritia" depends="" side="BOTH">
+        <URL priority="0">http://mwkinz.com/modpack/package/mods/Avaritia-1.12.2-3.3.0.33-universal.jar</URL>
+        <Size>972581</Size>
+        <Required>true</Required>
+        <ModType>Regular</ModType>
+        <MD5>8eedd678495a7ce0958c026a7873fc62</MD5>
+        <Meta>
+            <credits>Vazkii, Greg, brandon3055, vswe, Algorithm</credits>
+            <description>A mod to see how hard people are willing to grind.</description>
+            <version>3.3.0.33</version>
+            <url></url>
+            <authors>SpitefulFox, TTFTCUTS</authors>
+        </Meta>
+    </Module>
 		<Module name="B.A.S.E" id="base" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/base-1.12.2-3.11.0.jar</URL>
 			<Size>622380</Size>
@@ -3699,6 +3699,7 @@
 				<url>https://minecraft.curseforge.com/projects/bewitchment</url>
 				<authors>Zabi94, Sunconure11, Ingoleth, and a whole lot of awesome people from our discord server!, And our awesome patrons!</authors>
 			</Meta>
+		</Module>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
 			<Size>5122856</Size>
