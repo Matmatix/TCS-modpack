@@ -3687,7 +3687,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Bewitchment" id="bewitchment" depends="" side="BOTH">
-			<URL priority="0">mwkinz.com/mods/Bewitchment-1.12.2-0.0.19.47-indev.jar</URL>
+			<URL priority="0">http://mwkinz.com/modpack/package/mods/Bewitchment-1.12.2-0.0.19.47-indev.jar</URL>
 			<Size>5395385</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -30956,7 +30956,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/mods/Patchouli-1.0-19.jar</URL>
+			<URL priority="0">http://mwkinz.com/modpack/package/mods/Patchouli-1.0-19.jar</URL>
 			<Size>466011</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
