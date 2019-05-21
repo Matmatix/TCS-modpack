@@ -33139,32 +33139,6 @@
 				<MD5>4b5a285f8bb4276a69271749be868a36</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="ThaumicJEI" id="thaumicjei" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/ThaumicJEI-1.12.2-1.5.5-23.jar</URL>
-			<Size>55487</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>6bd4a0d752f0bd53b28262836e18b09d</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A Simple JEI addon for Thaumcraft</description>
-				<version>1.12.2-1.5.5-23</version>
-				<url></url>
-				<authors>Buuz135</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/thaumicjei.cfg</URL>
-				<Path>config/thaumicjei.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>517e210bc59e4f9027878d24f1e8ef02</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/thaumicjei_itemstack_aspects.json</URL>
-				<Path>config/thaumicjei_itemstack_aspects.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a5ebcd4ba61bac373d919f19efe4337d</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="The Beneath" id="beneath" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/The%20Beneath-1.12.2-1.4.2.jar</URL>
 			<Size>6127880</Size>
