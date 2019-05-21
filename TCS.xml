@@ -3646,7 +3646,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Better Questing" id="betterquesting" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/mods/BetterQuesting-3.5.285.jar</URL>
+			<URL priority="0">http://mwkinz.com/modpack/package/mods/BetterQuesting-3.5.285.jar</URL>
 			<Size>1358592</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
