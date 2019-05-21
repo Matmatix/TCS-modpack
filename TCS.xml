@@ -339,23 +339,25 @@
 			<MD5>91f05bba8a633439a4518b57413ba835</MD5>
 			<Meta>
 				<credits>
-  Author:
-    - InfinityRaider
-  Code Help:
-    - Imasius
-    - RlonRyan
-  API:
-    - HenryLoenwind
-    - Textures:
-    - MechWarrior99
-    - SkullyGamingMC
-    - VapourDrive
-    - SkeletonPunk</credits>
+				  Author:
+				    - InfinityRaider
+				  Code Help:
+				    - Imasius
+				    - RlonRyan
+				  API:
+				    - HenryLoenwind
+				    - Textures:
+				    - MechWarrior99
+				    - SkullyGamingMC
+				    - VapourDrive
+				    - SkeletonPunk
+					</credits>
 				<description>Agricultural farming extended.</description>
 				<version>2.12.0-1.12.0-a6</version>
 				<url>http://minecraft.curseforge.com/mc-mods/225635-agricraft</url>
 				<authors>
-    - InfinityRaider</authors>
+    				- InfinityRaider
+				</authors>
 			</Meta>
 			<ConfigFile>
 				<URL priority="0">http://mwkinz.com/modpack/package/config/agricraft/config.cfg</URL>
@@ -3010,32 +3012,6 @@
 				<MD5>8704e1f3c33e0c91ac0a132067e06417</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Angel of Vengeance" id="aov" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/AoV-1.12-0.9.4.jar</URL>
-			<Size>3556670</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>e9281fa75bae6ac2c304b0eec4d88501</MD5>
-			<Meta>
-				<credits>Tamaized</credits>
-				<description>A Magic Based Minecraft Mod about being a Healer</description>
-				<version>0.9.4</version>
-				<url>https://minecraft.curseforge.com/projects/angel-of-vengeance</url>
-				<authors>Tamaized</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/aov.cfg</URL>
-				<Path>config/aov.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>de7960b2659cc37a6589677f462694ee</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/of.cfg</URL>
-				<Path>config/of.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>69c9b97f5fc7401c4bc0d37fe852b38c</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="AngelRing 2 Bauble" id="flyringbaublemod" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar</URL>
 			<Size>44041</Size>
@@ -3056,26 +3032,6 @@
 				<MD5>1931c2ea9bb8929f111a1710bcafb07d</MD5>
 			</ConfigFile>
 		</Module>
-        <Module name="Animania" id="animania" depends="" side="BOTH">
-            <URL priority="0">http://mwkinz.com/modpack/package/mods/animania-1.12.2-1.6.2.jar</URL>
-            <Size>8953456</Size>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>b36e2692dded419cc2bd2612382ed1d7</MD5>
-            <Meta>
-                <credits>Game concept, creative direction, models, textures, animation, sound design, and development by RazzleberryFox, Purplicious_Cow, cy4n, Tschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien</credits>
-                <description>Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops.</description>
-                <version>1.6.2</version>
-                <url></url>
-                <authors>RazzleberryFox, Purplicious_Cow, cy4n, Tschipp, ZeAmateis, Timmypote, Raptorfarian, vroulas, and TheJurassicAlien</authors>
-            </Meta>
-            <ConfigFile>
-                <URL priority="0">http://mwkinz.com/modpack/package/config/animania.cfg</URL>
-                <Path>config/animania.cfg</Path>
-                <NoOverwrite>false</NoOverwrite>
-                <MD5>820f7fea507f800a9c8d2ddeff797fc6</MD5>
-            </ConfigFile>
-        </Module>
 		<Module name="Animus" id="animus" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Animus-2.0.4.jar</URL>
 			<Size>336105</Size>
@@ -3495,20 +3451,20 @@
 			<ModType>Regular</ModType>
 			<MD5>f0c255c69f8380562c99778b978e7e98</MD5>
 		</Module>
-        <Module name="Avaritia" id="Avaritia" depends="" side="BOTH">
-            <URL priority="0">http://mwkinz.com/modpack/package/mods/Avaritia-1.12.2-3.3.0.33-universal.jar</URL>
-            <Size>972581</Size>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>8eedd678495a7ce0958c026a7873fc62</MD5>
-            <Meta>
-                <credits>Vazkii, Greg, brandon3055, vswe, Algorithm</credits>
-                <description>A mod to see how hard people are willing to grind.</description>
-                <version>3.3.0.33</version>
-                <url></url>
-                <authors>SpitefulFox, TTFTCUTS</authors>
-            </Meta>
-        </Module>
+    <Module name="Avaritia" id="Avaritia" depends="" side="BOTH">
+        <URL priority="0">http://mwkinz.com/modpack/package/mods/Avaritia-1.12.2-3.3.0.33-universal.jar</URL>
+        <Size>972581</Size>
+        <Required>true</Required>
+        <ModType>Regular</ModType>
+        <MD5>8eedd678495a7ce0958c026a7873fc62</MD5>
+        <Meta>
+            <credits>Vazkii, Greg, brandon3055, vswe, Algorithm</credits>
+            <description>A mod to see how hard people are willing to grind.</description>
+            <version>3.3.0.33</version>
+            <url></url>
+            <authors>SpitefulFox, TTFTCUTS</authors>
+        </Meta>
+    </Module>
 		<Module name="B.A.S.E" id="base" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/base-1.12.2-3.11.0.jar</URL>
 			<Size>622380</Size>
@@ -3611,26 +3567,6 @@
 				<authors>bdew</authors>
 			</Meta>
 		</Module>
-		<Module name="Bedrock-B-Gone" id="bedrockbgone" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/BedrockBGone-1.12.2-5.0-b8.jar</URL>
-			<Size>33190</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a9b7582ec74315fbb3fa25593abcd174</MD5>
-			<Meta>
-				<credits>My lazyness</credits>
-				<description>Make the bedrock layer flat</description>
-				<version>1.12.2-5.0-b8</version>
-				<url></url>
-				<authors>Karjah</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/bedrockbgone.cfg</URL>
-				<Path>config/bedrockbgone.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>480c14c798097daafa5387195f3328f8</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Bee Better at Bees" id="beebetteratbees" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/beebetteratbees-1.12.2-2.0.3.jar</URL>
 			<Size>44806</Size>
@@ -3722,18 +3658,6 @@
 				<url></url>
 				<authors>Funwayguy</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/betterquesting/questbook.cfg</URL>
-				<Path>config/betterquesting/questbook.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c1570c8cd795bb7a9752f77605463a35</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/betterquesting.cfg</URL>
-				<Path>config/betterquesting.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>06acb78a6463115338c8abae26615fff</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="Better Questing Quest Book" id="questbook" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/questbook-3.1.EXP_NET2-1.12.jar</URL>
@@ -3761,6 +3685,20 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>9fafc11a63bc72f6d2cfa5a3e3ebd02b</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Bewitchment" id="bewitchment" depends="" side="BOTH">
+			<URL priority="0">http://mwkinz.com/modpack/package/mods/Bewitchment-1.12.2-0.0.19.47-indev.jar</URL>
+			<Size>5395385</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d5f3fa50b85ba55cd4e5c339e2b5dfb4</MD5>
+			<Meta>
+				<credits>To all contributors of the mod. Credit to Monospace for Nethersteel Textures. Credit to Dobroide and NewAgeSoup for some of the sounds.</credits>
+				<description>A Witchery inspired mod</description>
+				<version>1.12.2-0.0.19.47-indev</version>
+				<url>https://minecraft.curseforge.com/projects/bewitchment</url>
+				<authors>Zabi94, Sunconure11, Ingoleth, and a whole lot of awesome people from our discord server!, And our awesome patrons!</authors>
+			</Meta>
 		</Module>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
@@ -13247,10 +13185,12 @@
 			<MD5>76a060f6604f9bb3f61a36a04472e3ac</MD5>
 			<Meta>
 				<credits>Created by Ollie Lansdell</credits>
-				<description>Whoever said Calculators were boring?! Awesome Calculators, crazy items, mind-blowing machines and hundreds of hidden recipes.
-Change the way you craft, change the way you play, change the way you think.
+				<description>
+					Whoever said Calculators were boring?! Awesome Calculators, crazy items, mind-blowing machines and hundreds of hidden recipes.
+					Change the way you craft, change the way you play, change the way you think.
 
-Thank you for trying Calculator!</description>
+					Thank you for trying Calculator!
+				</description>
 				<version>1.12.2-5.0.11-12</version>
 				<url></url>
 				<authors>Ollie Lansdell</authors>
@@ -13491,10 +13431,10 @@ Thank you for trying Calculator!</description>
 			<ModType>Regular</ModType>
 			<MD5>dbda5475859bcffc9f572c5a1506a1f4</MD5>
 			<Meta>
-				<credits>AUTOMATIC_MAIDEN for the original mod,
-asie for porting to 1.7.2,
-and Pokenfenn/Cricket for continuing it in 1.7.
-This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<credits>
+					AUTOMATIC_MAIDEN for the original mod, asie for porting to 1.7.2, and Pokenfenn/Cricket for continuing it in 1.7.
+					This mod uses textures from the Painterly Pack: http://painterlypack.net/.
+				</credits>
 				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
 				<version>MC1.12.2-0.2.1.35</version>
 				<url>https://minecraft.curseforge.com/projects/chisel</url>
@@ -16817,9 +16757,10 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<MD5>18096ffb7f58d94f8e5a7bf2ff160f0f</MD5>
 			<Meta>
 				<credits></credits>
-				<description>Increases leaf decay rates.
-
-Check out the config to change the decay rate!</description>
+				<description>
+					Increases leaf decay rates.
+					Check out the config to change the decay rate!
+				</description>
 				<version>v14</version>
 				<url>http://minecraft.curseforge.com/projects/fastleafdecay</url>
 				<authors>Olafski</authors>
@@ -17383,200 +17324,6 @@ Check out the config to change the decay rate!</description>
 				<Path>config/gendustryjei.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>7d9ee26415a48767ec3fbfcfef6f1bb4</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="GeneralLaymansAestheticSpyingScreen" id="generallaymansaestheticspyingscreen" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/GeneralLaymansAestheticSpyingScreen-1.12.2-7.0.0.jar</URL>
-			<Size>159791</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>024e218a06c252eeb8811252cc7861d3</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Also known as GLASS</description>
-				<version>1.12.2-7.0.0</version>
-				<url>http://ichun.me/mods/general-laymans-aesthetic-spying-screen/</url>
-				<authors>iChun</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/boreal_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/boreal_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0834db4d543433eb19056c998ed0b625</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/brushland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/brushland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d8e1fb5d2fd2a71ab03fb9ae9c03da82</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/chaparral.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/chaparral.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>be08a520a98ff259041a0e5579ab23ec</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/cherry_blossom_grove.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/cherry_blossom_grove.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e57b2d3d9ae8925f873211ba0f83f65d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/cold_desert.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/cold_desert.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9f9f866168a9457453d8da11b57478b2</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/coniferous_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/coniferous_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e6bb207e03bfa95d3717cd089077b713</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/coral_reef.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/coral_reef.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c448eb1007f19c429c688d20f0bdefee</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/corrupted_sands.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/corrupted_sands.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>590e629bb2c76fc7fc7d7da910032c9e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/eucalyptus_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/eucalyptus_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4c04d78873a9f5005a502f6e4eab2af4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/fungi_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/fungi_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>22784a10b2b4fe38261047bda801aa7e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/glacier.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/glacier.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>88b4740a1d3ba05340a0bc2e8f5935ff</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/grassland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/grassland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8015746f5d7007682b10157335d940d1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/gravel_beach.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/gravel_beach.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5053bf7c7f866368a85e589903969e93</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/lush_desert.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/lush_desert.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6b3c3e1914b64d7ff63d0ba5b470b6d3</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/mystic_grove.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/mystic_grove.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9b16e85a4a5845f574ff4c58c3dc89bb</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/phantasmagoric_inferno.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/phantasmagoric_inferno.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e28a0b4414e2ffb3824740ce24922d35</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/redwood_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/redwood_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a2e459511a6a66fd41803e7761bc9d47</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/sacred_springs.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/sacred_springs.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0d4dfa6cb7d36ed881c6a02127cca84a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/shield.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/shield.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>12394e555ad90aa24675be95dc4e6683</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/shrubland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/shrubland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b4a970b0df09177c823aa8ee9fb83457</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_coniferous_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_coniferous_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>05a54115ac28a6909f6e0a56226cb94d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_forest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/snowy_forest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>dacf8f1d066e44513d5764f3c85fa09e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/tropical_rainforest.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/tropical_rainforest.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fa3e7996fe4ad0253434bcbc225dfb41</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/undergarden.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/undergarden.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>16ce2fd561c7a133e1d8873b6c7aca4d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/visceral_heap.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/visceral_heap.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9ad6a0aa92a258007ae4c50500a02111</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/wasteland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/wasteland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>87a9a201cc1e4fc76501f3826fd7494d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/wetland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/wetland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e6299e2056e4a5cc4d2a8b1f7d0c7e6a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/white_beach.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/white_beach.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d4e25af1e590a3c3300e77e36b11c0ec</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/biomesoplenty/xeric_shrubland.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/biomesoplenty/xeric_shrubland.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ab607aa5f764d67d22226c8163b5ffbd</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/biomesoplenty/biomes/defaults/vanilla/extreme_hills_with_trees.json</URL>
-				<Path>config/biomesoplenty/biomes/defaults/vanilla/extreme_hills_with_trees.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>2c2765617d5a2b1320787c276f538c01</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Genetics Reborn" id="geneticsreborn" depends="" side="BOTH">
@@ -18560,8 +18307,10 @@ Check out the config to change the decay rate!</description>
 			<MD5>b1daa51ceb05fc7493ad03e57ba6927b</MD5>
 			<Meta>
 				<credits>By cpw, based on an original idea by Lishid</credits>
-				<description>New chests with larger sizes, with in-place upgrade items.
-The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
+				<description>
+					New chests with larger sizes, with in-place upgrade items.
+					The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest
+				</description>
 				<version>1.12.2-7.0.55.839</version>
 				<url>http://www.minecraftforum.net/topic/981855-</url>
 				<authors>cpw</authors>
@@ -18714,46 +18463,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>98db3dc54ead974865be0e33f17632db</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="JurassiCraft" id="jurassicraft" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/JurassiCraft-1.12.2-2.1.20.jar</URL>
-			<Size>22488627</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c4e2520262c0371ce7b2c72d83ec3540</MD5>
-			<Meta>
-				<credits></credits>
-				<description>JurassiCraft is a mod based on Jurassic Park and Jurassic World franchises, but is not only limited to it. This mod allows you to create dinosaurs by extracting DNA from fossils and amber, and putting that through a process until you get a baby dinosaur! Not only does this mod add dinosaurs, it also adds many prehistoric plants, decorations, vehicles and much more!</description>
-				<version>2.1.20</version>
-				<url>http://minecraft.curseforge.com/projects/jurassicraft-2-0</url>
-				<authors>JurassiCraft Team</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/jurassicraft.cfg</URL>
-				<Path>config/jurassicraft.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9b736bc47b1c8afeb84ab96101f8acd3</MD5>
-			</ConfigFile>
-		</Module>
-        <Module name="Just a Few Fish" id="jaff" depends="" side="BOTH">
-            <URL priority="0">http://mwkinz.com/modpack/package/mods/JustAFewFish-1.7_for_1.12.jar</URL>
-            <Size>238863</Size>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>7db981b35345514431b01025e4ab6cae</MD5>
-            <Meta>
-                <credits>Made by Tmtravlr</credits>
-                <description>Adds a few fish, to go along with the vanilla items!</description>
-                <version>1.7_for_1.12</version>
-                <url></url>
-                <authors>Tmtravlr</authors>
-            </Meta>
-            <ConfigFile>
-                <URL priority="0">http://mwkinz.com/modpack/package/config/jaff.cfg</URL>
-                <Path>config/jaff.cfg</Path>
-                <NoOverwrite>false</NoOverwrite>
-                <MD5>65dead82191f3aebcb5f391a1a3498b8</MD5>
-            </ConfigFile>
-        </Module>
 		<Module name="Just Enough Dimensions" id="justenoughdimensions" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/justenoughdimensions-1.12.2-1.6.0-dev.20190102.023335.jar</URL>
 			<Size>234184</Size>
@@ -18880,9 +18589,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>d59a5afae61495c66b47958b3fc2790c</MD5>
 			<Meta>
 				<credits></credits>
-				<description>Use the 1.13 chunk format in 1.12 to remove block, item, and biome ID limits.
+				<description>
+					Use the 1.13 chunk format in 1.12 to remove block, item, and biome ID limits.
 
-Thanks to zabi94 for helping getting potions and enchants extended.</description>
+					Thanks to zabi94 for helping getting potions and enchants extended.
+				</description>
 				<version>1.0.2-26</version>
 				<url>https://minecraft.curseforge.com/projects/jeid</url>
 				<authors>Runemoro, ZombieHDGaming</authors>
@@ -19316,32 +19027,6 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 			<ModType>Regular</ModType>
 			<MD5>6bd49839544ea466ec3f6280db263867</MD5>
 		</Module>
-		<Module name="Loot Bags" id="lootbags" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/LootBags-1.12.2-2.5.7.jar</URL>
-			<Size>268517</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>7a77afe525208299dba777a528ce8229</MD5>
-			<Meta>
-				<credits>Malorolam</credits>
-				<description>Add loot pouches to entity drops</description>
-				<version>2.5.7</version>
-				<url></url>
-				<authors>Malorolam</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/lootbags.cfg</URL>
-				<Path>config/lootbags.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>49e188319227d13519d88718bcad2451</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/Lootbags_BagConfig.cfg</URL>
-				<Path>config/Lootbags_BagConfig.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>569b573412179b0e198c550422163fb1</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="LunatriusCore" id="lunatriuscore" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar</URL>
 			<Size>76753</Size>
@@ -19360,98 +19045,6 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<Path>config/lunatriuscore.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f12267ff6480bae77adc78bc1020532e</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="MachineMuse&apos;s Modular Powersuits" id="powersuits" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/ModularPowersuits-1.12.2-0.7.0.026.jar</URL>
-			<Size>2151686</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>fe85affacf3cbdfff0e05bd48d2a4473</MD5>
-			<Meta>
-				<credits>Code by MachineMuse, Icons by WaterCandle, Modeling by SebK</credits>
-				<description>A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses EU (IndustrialCraft 2) or RF (Thermal Expansion 4).</description>
-				<version>1.12.2-0.7.0.026</version>
-				<url>http://machinemuse.net/</url>
-				<authors>MachineMuse</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_feet/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_feet/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>86b8086ac8c7b409e0f6248512de91e3</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_feet/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_feet/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6d19b03353e4682a724c3f254c26cb76</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_head/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_head/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5dda631c69a729e18cd00a96a574a406</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_head/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_head/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d2c7f52d5ea5d4585ee319d26061a31f</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_legs/Citizen%20Joe%20Armor%20Skin.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_legs/Citizen Joe Armor Skin.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>72156f5b2ba860e0918bcc599591a7f5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_legs/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_legs/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e6ac0e43686adae6d2e54c38b732b4f5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_legs/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_legs/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a470d0b0f24d27dff823a153f6d85482</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_torso/Default%20Armor2.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_torso/Default Armor2.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>aafb174598c432601c58bcdb801a105e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/powerarmor_torso/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/powerarmor_torso/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b9882bf33ead931a641556d44aa0da4c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/cosmeticpresets/power_fist/Default.dat</URL>
-				<Path>config/machinemuse/cosmeticpresets/power_fist/Default.dat</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8c418ec58d92f2a85e4c42d2588f5542</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/missingConfigDoubles.txt</URL>
-				<Path>config/machinemuse/missingConfigDoubles.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>63b370cd7664c3ba7a3db8828152ab67</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/numina.cfg</URL>
-				<Path>config/machinemuse/numina.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c8acc83b7508a42d758d7e80dbaa82d8</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/machinemuse/powersuits.cfg</URL>
-				<Path>config/machinemuse/powersuits.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3b5481263c0ad6be8a53bcbe137f301a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Magic Bees" id="MagicBees" depends="" side="BOTH">
@@ -20864,9 +20457,10 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 			<MD5>f0c0370c27e6817acb65a9bb2c349fb2</MD5>
 			<Meta>
 				<credits>
-    Great thanks to:
-    Axoi, for the textures.
-    alucard87pl, for help with the wiki.</credits>
+    			Great thanks to:
+    			Axoi, for the textures.
+    			alucard87pl, for help with the wiki.
+				</credits>
 				<description>Addon for Open Computers which adds Augmented Reality features to Minecraft.</description>
 				<version>1.5.5</version>
 				<url>http://starchasers.pl/OpenGlasses/</url>
@@ -31361,6 +30955,20 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<MD5>356a4d44eaa9f704bc0b5956b7e65aff</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
+			<URL priority="0">http://mwkinz.com/modpack/package/mods/Patchouli-1.0-19.jar</URL>
+			<Size>466011</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>05b4c57eb31770ca1c0da6b3a1ed69fa</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers</description>
+				<version>1.0-19</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
 		<Module name="Placebo" id="placebo" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/Placebo-1.12.2-1.5.0.jar</URL>
 			<Size>63161</Size>
@@ -31600,13 +31208,15 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 			<ModType>Regular</ModType>
 			<MD5>34341d2c5205c9212fe20e9adaffe475</MD5>
 			<Meta>
-				<credits>Thanks to:
-x3n0ph0b3 - EE2 creator. Allowed use of EE2 assets.
-MidnightLightning - EE2 GUI Textures.
-Magic Banana - Original ProjectE textures.
-MaPePeR - Assistant developer.
-Williewillus - Assistant developer.
-Lilylicious - Assistant developer.</credits>
+				<credits>
+					Thanks to:
+						x3n0ph0b3 - EE2 creator. Allowed use of EE2 assets.
+						MidnightLightning - EE2 GUI Textures.
+						Magic Banana - Original ProjectE textures.
+						MaPePeR - Assistant developer.
+						Williewillus - Assistant developer.
+						Lilylicious - Assistant developer.
+					</credits>
 				<description>A complete rewrite of EE2 for modern Minecraft versions.</description>
 				<version>1.12-PE1.3.2h</version>
 				<url>http://minecraft.curseforge.com/mc-mods/226410-projecte</url>
@@ -32152,26 +31762,6 @@ Lilylicious - Assistant developer.</credits>
 				<Path>config/railcraft/railcraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>038c6689d13916f76d378fc1da48a56d</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Random Loot Mod" id="randomloot" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/RandomLoot-1.4.1.jar</URL>
-			<Size>127114</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>65a0f089720104599a122a5696eeb95a</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A new way to get loot from enemies and dungeons.</description>
-				<version>1.3</version>
-				<url></url>
-				<authors>milomaz1</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/randomloot/randomloot.cfg</URL>
-				<Path>config/randomloot/randomloot.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0593f831f5f15dd15588b69f929c067e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Random Things" id="randomthings" depends="" side="BOTH">
@@ -33455,8 +33045,10 @@ Lilylicious - Assistant developer.</credits>
 			<ModType>Regular</ModType>
 			<MD5>462d9de075568c90da000b99591255c2</MD5>
 			<Meta>
-				<credits>Azanor for Thaumcraft
-sinkillerj, williewillus and Blubberbub for ProjectE</credits>
+				<credits>
+					Azanor for Thaumcraft
+					sinkillerj, williewillus and Blubberbub for ProjectE
+				</credits>
 				<description>ProjectE Thaumcraft bridge</description>
 				<version>1.12.2-1.0.5</version>
 				<url>https://minecraft.curseforge.com/projects/thaumic-equivalence</url>
@@ -33547,32 +33139,6 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 				<MD5>4b5a285f8bb4276a69271749be868a36</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="ThaumicJEI" id="thaumicjei" depends="" side="BOTH">
-			<URL priority="0">http://mwkinz.com/modpack/package/mods/ThaumicJEI-1.12.2-1.5.5-23.jar</URL>
-			<Size>55487</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>6bd4a0d752f0bd53b28262836e18b09d</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A Simple JEI addon for Thaumcraft</description>
-				<version>1.12.2-1.5.5-23</version>
-				<url></url>
-				<authors>Buuz135</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/thaumicjei.cfg</URL>
-				<Path>config/thaumicjei.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>517e210bc59e4f9027878d24f1e8ef02</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://mwkinz.com/modpack/package/config/thaumicjei_itemstack_aspects.json</URL>
-				<Path>config/thaumicjei_itemstack_aspects.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a5ebcd4ba61bac373d919f19efe4337d</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="The Beneath" id="beneath" depends="" side="BOTH">
 			<URL priority="0">http://mwkinz.com/modpack/package/mods/The%20Beneath-1.12.2-1.4.2.jar</URL>
 			<Size>6127880</Size>
@@ -33613,10 +33179,10 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 			<MD5>fd15376bd7340188b4f9b59789a3d240</MD5>
 			<Meta>
 				<credits>
- Â§nDevelopment Team:Â§r Angry Pixel
- Â§nContributors:Â§r https://github.com/Angry-Pixel/The-Betweenlands/graphs/contributors
- Â§nLocalization:Â§r DYColdWind (zh_CN), RisingInIris2017 (zh_CN), DL_Slime (zh_CN), LIL_SUZEE (ru_RU), TimeConqueror (ru_RU)
- Â§nSpecial Thanks:Â§r iLexiconn, OnyxDarkNight, SanAndreasP, Stealthgert, Dylan4Ever, Vahkiti, Aginsun, Cricket, FairWolf, Fish2, Hologuard, Hwd45, Iridium616, Ivorius, KazunariAkito, Laskeri, Quintinity, RandumbDude, Robonix, Sagotomi, Sartharis, Stealthgert, Vazkii, ZeuX, calebmanley, daveyx0, kiko0804, Timinations and probably many more!</credits>
+ 					Â§nDevelopment Team:Â§r Angry Pixel
+ 					Â§nContributors:Â§r https://github.com/Angry-Pixel/The-Betweenlands/graphs/contributors
+ 					Â§nLocalization:Â§r DYColdWind (zh_CN), RisingInIris2017 (zh_CN), DL_Slime (zh_CN), LIL_SUZEE (ru_RU), TimeConqueror (ru_RU)
+ 					Â§nSpecial Thanks:Â§r iLexiconn, OnyxDarkNight, SanAndreasP, Stealthgert, Dylan4Ever, Vahkiti, Aginsun, Cricket, FairWolf, Fish2, Hologuard, Hwd45, Iridium616, Ivorius, KazunariAkito, Laskeri, Quintinity, RandumbDude, Robonix, Sagotomi, Sartharis, Stealthgert, Vazkii, ZeuX, calebmanley, daveyx0, kiko0804, Timinations and probably many more!</credits>
 				<description>Introducing The Betweenlands... a dark and hostile environment. This large and expansive mod adds a whole new dimension to the game.</description>
 				<version>3.3.13</version>
 				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mods-discussion/1441135</url>
@@ -34264,10 +33830,12 @@ sinkillerj, williewillus and Blubberbub for ProjectE</credits>
 			<ModType>Regular</ModType>
 			<MD5>b1ba004241d86a3e1280c8911c2b4ff2</MD5>
 			<Meta>
-				<credits>Mojang for creating Minecraft.
-Forge/FML for creating this awesome modding platform.
-The creators of every mod that UniDict interacts.
-All the users of UniDict.</credits>
+				<credits>
+					Mojang for creating Minecraft.
+					Forge/FML for creating this awesome modding platform.
+					The creators of every mod that UniDict interacts.
+					All the users of UniDict.
+				</credits>
 				<description>a mod about unifying all the things.</description>
 				<version>1.12.2-2.9.2</version>
 				<url>http://minecraft.curseforge.com/projects/unidict</url>
